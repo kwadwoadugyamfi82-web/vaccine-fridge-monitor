@@ -1,0 +1,28 @@
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x8 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x10cc
+load:0x403c8700,len:0xc2c
+load:0x403cb700,len:0x30b0
+entry 0x403c88b8
+
+=== REFIT replay on ESP32-S3 | chip ESP32-S3 rev 2 | 240 MHz | sketch 410016 B ===
+RESULT|House 2, Appliance1|CAL=3 WIN=5 P=1|evals=13885|lvl0=12713|lvl1=1071|lvl2=101|hash=297248AA
+TIMING|House 2, Appliance1|original settings|phases=14105|17.453 us per phase (replay loop included)
+RESULT|House 15, Appliance1|CAL=3 WIN=5 P=1|evals=17506|lvl0=17038|lvl1=436|lvl2=32|hash=A8B672C9
+TIMING|House 15, Appliance1|original settings|phases=17657|17.562 us per phase (replay loop included)
+RESULT|House 20, Appliance1|CAL=3 WIN=5 P=1|evals=19845|lvl0=17061|lvl1=2427|lvl2=357|hash=CB75A9E8
+TIMING|House 20, Appliance1|original settings|phases=19935|17.657 us per phase (replay loop included)
+RESULT|House 20, Appliance2|CAL=3 WIN=5 P=1|evals=14781|lvl0=14276|lvl1=493|lvl2=12|hash=A2841CDE
+TIMING|House 20, Appliance2|original settings|phases=14871|17.563 us per phase (replay loop included)
+RESULT|House 2, Appliance1|CAL=24 WIN=5 P=6|evals=12718|lvl0=12309|lvl1=399|lvl2=10|hash=5957CA86
+TIMING|House 2, Appliance1|proposed settings|phases=14105|16.141 us per phase (replay loop included)
+RESULT|House 15, Appliance1|CAL=24 WIN=5 P=6|evals=16676|lvl0=16530|lvl1=139|lvl2=7|hash=C9631AB8
+TIMING|House 15, Appliance1|proposed settings|phases=17657|16.855 us per phase (replay loop included)
+RESULT|House 20, Appliance1|CAL=24 WIN=5 P=6|evals=19299|lvl0=18373|lvl1=898|lvl2=28|hash=B412C071
+TIMING|House 20, Appliance1|proposed settings|phases=19935|17.287 us per phase (replay loop included)
+RESULT|House 20, Appliance2|CAL=24 WIN=5 P=6|evals=14233|lvl0=14038|lvl1=195|lvl2=0|hash=73603EDA
+TIMING|House 20, Appliance2|proposed settings|phases=14871|17.049 us per phase (replay loop included)
+DONE

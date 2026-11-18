@@ -1,0 +1,63 @@
+{
+  "version": 1,
+  "author": "Adu-Gyamfi Kwadwo",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "board-esp32-s3-devkitc-1", "id": "esp", "top": 0, "left": 0, "attrs": {} },
+    { "type": "wokwi-dht22", "id": "dht", "top": -80, "left": 200, "attrs": {} },
+    { "type": "wokwi-resistor", "id": "r_pullup", "top": -100, "left": 260, "attrs": { "value": "10000" } },
+    { "type": "wokwi-pushbutton", "id": "btn", "top": -80, "left": 320, "attrs": { "color": "blue" } },
+    { "type": "wokwi-gas-sensor", "id": "mq2", "top": -80, "left": 420, "attrs": {} },
+    { "type": "wokwi-ds1307", "id": "rtc1", "top": -80, "left": 520, "attrs": {} },
+    { "type": "wokwi-led", "id": "led_green", "top": 60, "left": 300, "attrs": { "color": "green" } },
+    { "type": "wokwi-led", "id": "led_yellow", "top": 100, "left": 300, "attrs": { "color": "yellow" } },
+    { "type": "wokwi-led", "id": "led_red", "top": 140, "left": 300, "attrs": { "color": "red" } },
+    { "type": "wokwi-led", "id": "led_compressor", "top": 180, "left": 300, "attrs": { "color": "blue" } },
+    { "type": "wokwi-resistor", "id": "r_green", "top": 60, "left": 250, "attrs": { "value": "220" } },
+    { "type": "wokwi-resistor", "id": "r_yellow", "top": 100, "left": 250, "attrs": { "value": "220" } },
+    { "type": "wokwi-resistor", "id": "r_red", "top": 140, "left": 250, "attrs": { "value": "220" } },
+    { "type": "wokwi-resistor", "id": "r_compressor", "top": 180, "left": 250, "attrs": { "value": "220" } },
+    { "type": "wokwi-buzzer", "id": "buzzer1", "top": 220, "left": 300, "attrs": {} }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+
+    ["dht:VCC", "esp:3V3", "red", []],
+    ["dht:GND", "esp:GND.1", "black", []],
+    ["dht:SDA", "esp:18", "green", []],
+    ["dht:SDA", "r_pullup:1", "green", []],
+    ["r_pullup:2", "esp:3V3", "red", []],
+
+    ["btn:1.l", "esp:5", "yellow", []],
+    ["btn:2.l", "esp:GND.2", "black", []],
+
+    ["mq2:VCC", "esp:5V", "red", []],
+    ["mq2:GND", "esp:GND.8", "black", []],
+    ["mq2:AOUT", "esp:8", "orange", []],
+
+    ["rtc1:VCC", "esp:3V3", "red", []],
+    ["rtc1:GND", "esp:GND.9", "black", []],
+    ["rtc1:SDA", "esp:11", "green", []],
+    ["rtc1:SCL", "esp:12", "yellow", []],
+
+    ["esp:6", "r_green:1", "green", []],
+    ["r_green:2", "led_green:A", "green", []],
+    ["led_green:C", "esp:GND.3", "black", []],
+
+    ["esp:7", "r_yellow:1", "yellow", []],
+    ["r_yellow:2", "led_yellow:A", "yellow", []],
+    ["led_yellow:C", "esp:GND.4", "black", []],
+
+    ["esp:15", "r_red:1", "red", []],
+    ["r_red:2", "led_red:A", "red", []],
+    ["led_red:C", "esp:GND.5", "black", []],
+
+    ["esp:16", "r_compressor:1", "blue", []],
+    ["r_compressor:2", "led_compressor:A", "blue", []],
+    ["led_compressor:C", "esp:GND.6", "black", []],
+
+    ["esp:17", "buzzer1:1", "purple", []],
+    ["buzzer1:2", "esp:GND.7", "black", []]
+  ]
+}

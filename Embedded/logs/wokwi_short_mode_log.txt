@@ -1,0 +1,126 @@
+Wokwi serial output, revised sketch (fridge_logic.h), DEMO_SHORT_SETTINGS 1, 16 Nov 2026.
+Excerpt: the end of the run, as copied from the Serial Monitor. The calibration messages are not part of this excerpt.
+
+[07:47:21] Cumulative warm-time today: 4 min
+Temp: 55.40 C | Compressor: ON
+Published: {"temperature":55.4,"compressor":"ON","alertLevel":0,"alertText":"Normal","gasAlert":false,"gasReading":1078,"warmMinutesToday":4,"door":"CLOSED","deviceTime":"07:47:21"}
+[07:47:24] Cumulative warm-time today: 4 min
+Temp: 55.40 C | Compressor: ON
+Published: {"temperature":55.4,"compressor":"ON","alertLevel":0,"alertText":"Normal","gasAlert":false,"gasReading":1078,"warmMinutesToday":4,"door":"CLOSED","deviceTime":"07:47:24"}
+Gas sensor reading: 1078
+[07:47:26] Cumulative warm-time today: 4 min
+Temp: 55.40 C | Compressor: ON
+Published: {"temperature":55.4,"compressor":"ON","alertLevel":0,"alertText":"Normal","gasAlert":false,"gasReading":1078,"warmMinutesToday":4,"door":"CLOSED","deviceTime":"07:47:26"}
+[07:47:28] Cumulative warm-time today: 4 min
+Temp: 55.40 C | Compressor: ON
+Published: {"temperature":55.4,"compressor":"ON","alertLevel":0,"alertText":"Normal","gasAlert":false,"gasReading":1078,"warmMinutesToday":4,"door":"CLOSED","deviceTime":"07:47:28"}
+[07:47:30] Cumulative warm-time today: 4 min
+Temp: 55.40 C | Compressor: ON
+Published: {"temperature":55.4,"compressor":"ON","alertLevel":0,"alertText":"Normal","gasAlert":false,"gasReading":1078,"warmMinutesToday":4,"door":"CLOSED","deviceTime":"07:47:30"}
+Gas sensor reading: 1078
+[07:47:33] Cumulative warm-time today: 4 min
+Temp: 55.40 C | Compressor: ON
+Published: {"temperature":55.4,"compressor":"ON","alertLevel":0,"alertText":"Normal","gasAlert":false,"gasReading":1078,"warmMinutesToday":4,"door":"CLOSED","deviceTime":"07:47:33"}
+[07:47:35] Cumulative warm-time today: 4 min
+Temp: 55.40 C | Compressor: ON
+Published: {"temperature":55.4,"compressor":"ON","alertLevel":0,"alertText":"Normal","gasAlert":false,"gasReading":1078,"warmMinutesToday":4,"door":"CLOSED","deviceTime":"07:47:35"}
+[07:47:37] Cumulative warm-time today: 4 min
+Temp: 55.40 C | Compressor: ON
+Published: {"temperature":55.4,"compressor":"ON","alertLevel":0,"alertText":"Normal","gasAlert":false,"gasReading":1078,"warmMinutesToday":4,"door":"CLOSED","deviceTime":"07:47:37"}
+Gas sensor reading: 1078
+[07:47:40] Cumulative warm-time today: 4 min
+Temp: 55.40 C | Compressor: ON
+Published: {"temperature":55.4,"compressor":"ON","alertLevel":0,"alertText":"Normal","gasAlert":false,"gasReading":1078,"warmMinutesToday":4,"door":"CLOSED","deviceTime":"07:47:40"}
+[07:47:42] Cumulative warm-time today: 4 min
+Temp: 55.40 C | Compressor: ON
+Published: {"temperature":55.4,"compressor":"ON","alertLevel":0,"alertText":"Normal","gasAlert":false,"gasReading":1078,"warmMinutesToday":4,"door":"CLOSED","deviceTime":"07:47:42"}
+[07:47:44] Cumulative warm-time today: 4 min
+Temp: 55.40 C | Compressor: ON
+Published: {"temperature":55.4,"compressor":"ON","alertLevel":0,"alertText":"Normal","gasAlert":false,"gasReading":1078,"warmMinutesToday":4,"door":"CLOSED","deviceTime":"07:47:44"}
+Gas sensor reading: 1078
+[07:47:46] Cumulative warm-time today: 4 min
+Temp: 55.40 C | Compressor: ON
+Published: {"temperature":55.4,"compressor":"ON","alertLevel":0,"alertText":"Normal","gasAlert":false,"gasReading":1078,"warmMinutesToday":4,"door":"CLOSED","deviceTime":"07:47:46"}
+[07:47:49] Cumulative warm-time today: 4 min
+Temp: 55.40 C | Compressor: ON
+Published: {"temperature":55.4,"compressor":"ON","alertLevel":0,"alertText":"Normal","gasAlert":false,"gasReading":1078,"warmMinutesToday":4,"door":"CLOSED","deviceTime":"07:47:49"}
+[07:47:51] Cumulative warm-time today: 4 min
+Temp: 55.40 C | Compressor: ON
+Published: {"temperature":55.4,"compressor":"ON","alertLevel":0,"alertText":"Normal","gasAlert":false,"gasReading":1078,"warmMinutesToday":4,"door":"CLOSED","deviceTime":"07:47:51"}
+Gas sensor reading: 1078
+[07:47:53] Cumulative warm-time today: 4 min
+Temp: 55.40 C | Compressor: ON
+Published: {"temperature":55.4,"compressor":"ON","alertLevel":0,"alertText":"Normal","gasAlert":false,"gasReading":1078,"warmMinutesToday":4,"door":"CLOSED","deviceTime":"07:47:53"}
+[07:47:55] Cumulative warm-time today: 4 min
+Temp: 55.40 C | Compressor: ON
+Published: {"temperature":55.4,"compressor":"ON","alertLevel":0,"alertText":"Normal","gasAlert":false,"gasReading":1078,"warmMinutesToday":4,"door":"CLOSED","deviceTime":"07:47:55"}
+[07:47:58] Cumulative warm-time today: 4 min
+Temp: 55.40 C | Compressor: ON
+Published: {"temperature":55.4,"compressor":"ON","alertLevel":0,"alertText":"Normal","gasAlert":false,"gasReading":1078,"warmMinutesToday":4,"door":"CLOSED","deviceTime":"07:47:58"}
+Gas sensor reading: 1078
+[07:48:00] Cumulative warm-time today: 5 min
+Temp: 55.40 C | Compressor: ON
+Published: {"temperature":55.4,"compressor":"ON","alertLevel":0,"alertText":"Normal","gasAlert":false,"gasReading":1078,"warmMinutesToday":5,"door":"CLOSED","deviceTime":"07:48:00"}
+[07:48:02] Cumulative warm-time today: 5 min
+Temp: 55.40 C | Compressor: ON
+Published: {"temperature":55.4,"compressor":"ON","alertLevel":0,"alertText":"Normal","gasAlert":false,"gasReading":1078,"warmMinutesToday":5,"door":"CLOSED","deviceTime":"07:48:02"}
+[07:48:05] Cumulative warm-time today: 5 min
+Temp: 55.40 C | Compressor: ON
+Published: {"temperature":55.4,"compressor":"ON","alertLevel":0,"alertText":"Normal","gasAlert":false,"gasReading":1078,"warmMinutesToday":5,"door":"CLOSED","deviceTime":"07:48:05"}
+Gas sensor reading: 1078
+[07:48:07] Cumulative warm-time today: 5 min
+Temp: 55.40 C | Compressor: ON
+Published: {"temperature":55.4,"compressor":"ON","alertLevel":0,"alertText":"Normal","gasAlert":false,"gasReading":1078,"warmMinutesToday":5,"door":"CLOSED","deviceTime":"07:48:07"}
+[07:48:09] Cumulative warm-time today: 5 min
+Temp: 55.40 C | Compressor: ON
+Published: {"temperature":55.4,"compressor":"ON","alertLevel":0,"alertText":"Normal","gasAlert":false,"gasReading":1078,"warmMinutesToday":5,"door":"CLOSED","deviceTime":"07:48:09"}
+[07:48:11] Cumulative warm-time today: 5 min
+Temp: 55.40 C | Compressor: ON
+Published: {"temperature":55.4,"compressor":"ON","alertLevel":0,"alertText":"Normal","gasAlert":false,"gasReading":1078,"warmMinutesToday":5,"door":"CLOSED","deviceTime":"07:48:11"}
+Gas sensor reading: 1078
+[07:48:14] Cumulative warm-time today: 5 min
+Temp: 55.40 C | Compressor: ON
+Published: {"temperature":55.4,"compressor":"ON","alertLevel":0,"alertText":"Normal","gasAlert":false,"gasReading":1078,"warmMinutesToday":5,"door":"CLOSED","deviceTime":"07:48:14"}
+[07:48:16] Cumulative warm-time today: 5 min
+Temp: 55.40 C | Compressor: ON
+Published: {"temperature":55.4,"compressor":"ON","alertLevel":0,"alertText":"Normal","gasAlert":false,"gasReading":1078,"warmMinutesToday":5,"door":"CLOSED","deviceTime":"07:48:16"}
+[07:48:18] Cumulative warm-time today: 5 min
+Temp: 55.40 C | Compressor: ON
+Published: {"temperature":55.4,"compressor":"ON","alertLevel":0,"alertText":"Normal","gasAlert":false,"gasReading":1078,"warmMinutesToday":5,"door":"CLOSED","deviceTime":"07:48:18"}
+Smoothed drift factor (rolling avg of last 5 cycles): 1.66
+Gas sensor reading: 1078
+[07:48:21] Cumulative warm-time today: 5 min
+Temp: -10.50 C | Compressor: OFF
+Published: {"temperature":-10.5,"compressor":"OFF","alertLevel":0,"alertText":"Normal","gasAlert":false,"gasReading":1078,"warmMinutesToday":5,"door":"CLOSED","deviceTime":"07:48:21"}
+[07:48:23] Cumulative warm-time today: 5 min
+Temp: -10.50 C | Compressor: OFF
+Published: {"temperature":-10.5,"compressor":"OFF","alertLevel":0,"alertText":"Normal","gasAlert":false,"gasReading":1078,"warmMinutesToday":5,"door":"CLOSED","deviceTime":"07:48:23"}
+[07:48:25] Cumulative warm-time today: 5 min
+Temp: -10.50 C | Compressor: OFF
+Published: {"temperature":-10.5,"compressor":"OFF","alertLevel":0,"alertText":"Normal","gasAlert":false,"gasReading":1078,"warmMinutesToday":5,"door":"CLOSED","deviceTime":"07:48:25"}
+Gas sensor reading: 1078
+[07:48:27] Cumulative warm-time today: 5 min
+Temp: -10.50 C | Compressor: OFF
+Published: {"temperature":-10.5,"compressor":"OFF","alertLevel":0,"alertText":"Normal","gasAlert":false,"gasReading":1078,"warmMinutesToday":5,"door":"CLOSED","deviceTime":"07:48:27"}
+[07:48:30] Cumulative warm-time today: 5 min
+Temp: -10.50 C | Compressor: OFF
+Published: {"temperature":-10.5,"compressor":"OFF","alertLevel":0,"alertText":"Normal","gasAlert":false,"gasReading":1078,"warmMinutesToday":5,"door":"CLOSED","deviceTime":"07:48:30"}
+Smoothed drift factor (rolling avg of last 5 cycles): 1.94
+WARNING: Early sign of abnormal cycling detected (sustained).
+[07:48:33] Cumulative warm-time today: 5 min
+Temp: 35.20 C | Compressor: ON
+Published: {"temperature":35.2,"compressor":"ON","alertLevel":1,"alertText":"Warning","gasAlert":false,"gasReading":1078,"warmMinutesToday":5,"door":"CLOSED","deviceTime":"07:48:33"}
+Gas sensor reading: 1078
+[07:48:35] Cumulative warm-time today: 5 min
+Temp: 35.20 C | Compressor: ON
+Published: {"temperature":35.2,"compressor":"ON","alertLevel":1,"alertText":"Warning","gasAlert":false,"gasReading":1078,"warmMinutesToday":5,"door":"CLOSED","deviceTime":"07:48:35"}
+[07:48:38] Cumulative warm-time today: 5 min
+Temp: 35.20 C | Compressor: ON
+Published: {"temperature":35.2,"compressor":"ON","alertLevel":1,"alertText":"Warning","gasAlert":false,"gasReading":1078,"warmMinutesToday":5,"door":"CLOSED","deviceTime":"07:48:38"}
+[07:48:40] Cumulative warm-time today: 5 min
+Temp: 35.20 C | Compressor: ON
+Published: {"temperature":35.2,"compressor":"ON","alertLevel":1,"alertText":"Warning","gasAlert":false,"gasReading":1078,"warmMinutesToday":5,"door":"CLOSED","deviceTime":"07:48:40"}
+Gas sensor reading: 1078
+[07:48:42] Cumulative warm-time today: 5 min
+Temp: 35.20 C | Compressor: ON
+Published: {"temperature":35.2,"compressor":"ON","alertLevel":1,"alertText":"Warning","gasAlert":false,"gasReading":1078,"warmMinutesToday":5,"door":"CLOSED","deviceTime":"07:48:42"}

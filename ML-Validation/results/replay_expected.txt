@@ -1,0 +1,8 @@
+RESULT|House 2, Appliance1|CAL=3 WIN=5 P=1|evals=13885|lvl0=12713|lvl1=1071|lvl2=101|hash=297248AA
+RESULT|House 15, Appliance1|CAL=3 WIN=5 P=1|evals=17506|lvl0=17038|lvl1=436|lvl2=32|hash=A8B672C9
+RESULT|House 20, Appliance1|CAL=3 WIN=5 P=1|evals=19845|lvl0=17061|lvl1=2427|lvl2=357|hash=CB75A9E8
+RESULT|House 20, Appliance2|CAL=3 WIN=5 P=1|evals=14781|lvl0=14276|lvl1=493|lvl2=12|hash=A2841CDE
+RESULT|House 2, Appliance1|CAL=24 WIN=5 P=6|evals=12718|lvl0=12309|lvl1=399|lvl2=10|hash=5957CA86
+RESULT|House 15, Appliance1|CAL=24 WIN=5 P=6|evals=16676|lvl0=16530|lvl1=139|lvl2=7|hash=C9631AB8
+RESULT|House 20, Appliance1|CAL=24 WIN=5 P=6|evals=19299|lvl0=18373|lvl1=898|lvl2=28|hash=B412C071
+RESULT|House 20, Appliance2|CAL=24 WIN=5 P=6|evals=14233|lvl0=14038|lvl1=195|lvl2=0|hash=73603EDA

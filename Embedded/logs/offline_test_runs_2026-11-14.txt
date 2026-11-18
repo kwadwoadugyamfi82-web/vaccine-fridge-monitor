@@ -1,0 +1,1713 @@
+295 | 5003 | 0 | UP | DOWN | 0
+297 | 2000 | 0 | UP | DOWN | 0
+299 | 2000 | 0 | UP | DOWN | 0
+301 | 2000 | 3002 | UP | DOWN | 0
+306 | 5003 | 0 | UP | DOWN | 0
+308 | 2000 | 0 | UP | DOWN | 0
+310 | 2000 | 0 | UP | DOWN | 0
+312 | 2000 | 3002 | UP | DOWN | 0
+317 | 5003 | 0 | UP | DOWN | 0
+319 | 2000 | 0 | UP | DOWN | 0
+321 | 2000 | 0 | UP | DOWN | 0
+323 | 2000 | 3002 | UP | DOWN | 0
+328 | 5003 | 0 | UP | DOWN | 0
+330 | 2000 | 0 | UP | DOWN | 0
+SUMMARY after 150 loops: max period 5003 ms, loops over 2500 ms: 7
+332 | 2000 | 0 | UP | DOWN | 0
+334 | 2000 | 3002 | UP | DOWN | 0
+339 | 5003 | 0 | UP | DOWN | 0
+341 | 2000 | 0 | UP | DOWN | 0
+343 | 2000 | 0 | UP | DOWN | 0
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0xb (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x10cc
+load:0x403c8700,len:0xc2c
+load:0x403cb700,len:0x30b0
+entry 0x403c88b8
+
+=== offline / latency test ===
+USE_NETWORK_TASK=0 SIMULATE_BLOCKING_ALERT_SOUND=0 MIMIC_ORIGINAL_SETSERVER=1
+....................
+Wi-Fi at boot: NOT connected
+columns: t_s | period_ms | net_ms | wifi | mqtt | published
+11 | 2000 | 0 | DOWN | DOWN | 0
+13 | 2000 | 3002 | UP | DOWN | 0
+18 | 5003 | 0 | UP | DOWN | 0
+20 | 2000 | 0 | UP | DOWN | 0
+22 | 2000 | 0 | UP | DOWN | 0
+24 | 2000 | 3002 | UP | DOWN | 0
+29 | 5003 | 0 | UP | DOWN | 0
+31 | 2000 | 0 | UP | DOWN | 0
+33 | 2000 | 0 | UP | DOWN | 0
+35 | 2000 | 3002 | UP | DOWN | 0
+40 | 5003 | 0 | UP | DOWN | 0
+42 | 2000 | 0 | UP | DOWN | 0
+44 | 2000 | 0 | UP | DOWN | 0
+46 | 2000 | 3002 | UP | DOWN | 0
+51 | 5003 | 0 | UP | DOWN | 0
+SUMMARY after 15 loops: max period 5003 ms, loops over 2500 ms: 4
+53 | 2000 | 0 | UP | DOWN | 0
+55 | 2000 | 0 | UP | DOWN | 0
+57 | 2000 | 3002 | UP | DOWN | 0
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x8 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x10cc
+load:0x403c8700,len:0xc2c
+load:0x403cb700,len:0x30b0
+entry 0x403c88b8
+
+=== offline / latency test ===
+USE_NETWORK_TASK=0 SIMULATE_BLOCKING_ALERT_SOUND=0 MIMIC_ORIGINAL_SETSERVER=1
+....................
+Wi-Fi at boot: NOT connected
+columns: t_s | period_ms | net_ms | wifi | mqtt | published
+11 | 2000 | 0 | DOWN | DOWN | 0
+13 | 2000 | 0 | DOWN | DOWN | 0
+15 | 2000 | 0 | DOWN | DOWN | 0
+17 | 2000 | 3002 | UP | DOWN | 0
+22 | 5003 | 0 | UP | DOWN | 0
+24 | 2000 | 0 | UP | DOWN | 0
+26 | 2000 | 0 | UP | DOWN | 0
+28 | 2000 | 3002 | UP | DOWN | 0
+33 | 5003 | 0 | UP | DOWN | 0
+35 | 2000 | 0 | UP | DOWN | 0
+37 | 2000 | 0 | UP | DOWN | 0
+39 | 2000 | 3002 | UP | DOWN | 0
+44 | 5003 | 0 | UP | DOWN | 0
+46 | 2000 | 0 | UP | DOWN | 0
+48 | 2000 | 0 | UP | DOWN | 0
+SUMMARY after 15 loops: max period 5003 ms, loops over 2500 ms: 3
+50 | 2000 | 3002 | UP | DOWN | 0
+55 | 5003 | 0 | UP | DOWN | 0
+57 | 2000 | 0 | UP | DOWN | 0
+59 | 2000 | 0 | UP | DOWN | 0
+61 | 2000 | 3002 | UP | DOWN | 0
+66 | 5003 | 0 | UP | DOWN | 0
+68 | 2000 | 0 | UP | DOWN | 0
+70 | 2000 | 0 | UP | DOWN | 0
+72 | 2000 | 3002 | UP | DOWN | 0
+77 | 5003 | 0 | UP | DOWN | 0
+79 | 2000 | 0 | UP | DOWN | 0
+81 | 2000 | 0 | UP | DOWN | 0
+83 | 2000 | 3002 | UP | DOWN | 0
+88 | 5003 | 0 | UP | DOWN | 0
+90 | 2000 | 0 | UP | DOWN | 0
+SUMMARY after 30 loops: max period 5003 ms, loops over 2500 ms: 7
+92 | 2000 | 0 | UP | DOWN | 0
+94 | 2000 | 3002 | UP | DOWN | 0
+99 | 5003 | 0 | UP | DOWN | 0
+101 | 2000 | 0 | UP | DOWN | 0
+103 | 2000 | 0 | UP | DOWN | 0
+105 | 2000 | 3002 | UP | DOWN | 0
+110 | 5003 | 0 | UP | DOWN | 0
+112 | 2000 | 0 | UP | DOWN | 0
+114 | 2000 | 0 | UP | DOWN | 0
+116 | 2000 | 3002 | UP | DOWN | 0
+121 | 5003 | 0 | UP | DOWN | 0
+123 | 2000 | 0 | UP | DOWN | 0
+125 | 2000 | 0 | UP | DOWN | 0
+127 | 2000 | 3002 | UP | DOWN | 0
+132 | 5003 | 0 | UP | DOWN | 0
+SUMMARY after 45 loops: max period 5003 ms, loops over 2500 ms: 11
+134 | 2000 | 0 | UP | DOWN | 0
+136 | 2000 | 0 | UP | DOWN | 0
+138 | 2000 | 3002 | UP | DOWN | 0
+143 | 5003 | 0 | UP | DOWN | 0
+145 | 2000 | 0 | UP | DOWN | 0
+147 | 2000 | 0 | UP | DOWN | 0
+149 | 2000 | 3002 | UP | DOWN | 0
+154 | 5003 | 0 | UP | DOWN | 0
+156 | 2000 | 0 | UP | DOWN | 0
+158 | 2000 | 0 | UP | DOWN | 0
+160 | 2000 | 3002 | UP | DOWN | 0
+165 | 5003 | 0 | UP | DOWN | 0
+167 | 2000 | 0 | UP | DOWN | 0
+169 | 2000 | 0 | UP | DOWN | 0
+171 | 2000 | 3002 | UP | DOWN | 0
+SUMMARY after 60 loops: max period 5003 ms, loops over 2500 ms: 14
+176 | 5003 | 0 | UP | DOWN | 0
+178 | 2000 | 0 | UP | DOWN | 0
+180 | 2000 | 0 | UP | DOWN | 0
+182 | 2000 | 3002 | UP | DOWN | 0
+187 | 5003 | 0 | UP | DOWN | 0
+189 | 2000 | 0 | UP | DOWN | 0
+191 | 2000 | 0 | UP | DOWN | 0
+193 | 2000 | 3002 | UP | DOWN | 0
+198 | 5003 | 0 | UP | DOWN | 0
+200 | 2000 | 0 | UP | DOWN | 0
+202 | 2000 | 0 | UP | DOWN | 0
+204 | 2000 | 3002 | UP | DOWN | 0
+209 | 5003 | 0 | UP | DOWN | 0
+211 | 2000 | 0 | UP | DOWN | 0
+213 | 2000 | 0 | UP | DOWN | 0
+SUMMARY after 75 loops: max period 5003 ms, loops over 2500 ms: 18
+215 | 2000 | 3002 | UP | DOWN | 0
+220 | 5003 | 0 | UP | DOWN | 0
+222 | 2000 | 0 | UP | DOWN | 0
+224 | 2000 | 0 | UP | DOWN | 0
+226 | 2000 | 3002 | UP | DOWN | 0
+231 | 5003 | 0 | UP | DOWN | 0
+233 | 2000 | 0 | UP | DOWN | 0
+235 | 2000 | 0 | UP | DOWN | 0
+237 | 2000 | 3002 | UP | DOWN | 0
+242 | 5003 | 0 | UP | DOWN | 0
+244 | 2000 | 0 | UP | DOWN | 0
+246 | 2000 | 0 | UP | DOWN | 0
+248 | 2000 | 3002 | UP | DOWN | 0
+253 | 5003 | 0 | UP | DOWN | 0
+255 | 2000 | 0 | UP | DOWN | 0
+SUMMARY after 90 loops: max period 5003 ms, loops over 2500 ms: 22
+257 | 2000 | 0 | UP | DOWN | 0
+259 | 2000 | 3002 | UP | DOWN | 0
+264 | 5003 | 0 | UP | DOWN | 0
+266 | 2000 | 0 | UP | DOWN | 0
+268 | 2000 | 0 | UP | DOWN | 0
+270 | 2000 | 3002 | UP | DOWN | 0
+275 | 5003 | 0 | UP | DOWN | 0
+277 | 2000 | 0 | UP | DOWN | 0
+279 | 2000 | 0 | UP | DOWN | 0
+281 | 2000 | 3002 | UP | DOWN | 0
+286 | 5003 | 0 | UP | DOWN | 0
+288 | 2000 | 0 | UP | DOWN | 0
+290 | 2000 | 0 | UP | DOWN | 0
+292 | 2000 | 3002 | UP | DOWN | 0
+297 | 5003 | 0 | UP | DOWN | 0
+SUMMARY after 105 loops: max period 5003 ms, loops over 2500 ms: 26
+299 | 2000 | 0 | UP | DOWN | 0
+301 | 2000 | 0 | UP | DOWN | 0
+303 | 2000 | 3002 | UP | DOWN | 0
+308 | 5003 | 0 | UP | DOWN | 0
+310 | 2000 | 0 | UP | DOWN | 0
+312 | 2000 | 0 | UP | DOWN | 0
+314 | 2000 | 3002 | UP | DOWN | 0
+319 | 5003 | 0 | UP | DOWN | 0
+321 | 2000 | 0 | UP | DOWN | 0
+323 | 2000 | 0 | UP | DOWN | 0
+325 | 2000 | 3002 | UP | DOWN | 0
+330 | 5003 | 0 | UP | DOWN | 0
+332 | 2000 | 0 | UP | DOWN | 0
+334 | 2000 | 0 | UP | DOWN | 0
+336 | 2000 | 3002 | UP | DOWN | 0
+SUMMARY after 120 loops: max period 5003 ms, loops over 2500 ms: 29
+341 | 5003 | 0 | UP | DOWN | 0
+343 | 2000 | 0 | UP | DOWN | 0
+345 | 2000 | 0 | UP | DOWN | 0
+347 | 2000 | 3002 | UP | DOWN | 0
+352 | 5003 | 0 | UP | DOWN | 0
+354 | 2000 | 0 | UP | DOWN | 0
+356 | 2000 | 0 | UP | DOWN | 0
+358 | 2000 | 3002 | UP | DOWN | 0
+363 | 5003 | 0 | UP | DOWN | 0
+365 | 2000 | 0 | UP | DOWN | 0
+367 | 2000 | 0 | UP | DOWN | 0
+369 | 2000 | 3002 | UP | DOWN | 0
+374 | 5003 | 0 | UP | DOWN | 0
+376 | 2000 | 0 | UP | DOWN | 0
+378 | 2000 | 0 | UP | DOWN | 0
+SUMMARY after 135 loops: max period 5003 ms, loops over 2500 ms: 33
+380 | 2000 | 3002 | UP | DOWN | 0
+385 | 5003 | 0 | UP | DOWN | 0
+387 | 2000 | 0 | UP | DOWN | 0
+389 | 2000 | 0 | UP | DOWN | 0
+391 | 2000 | 3002 | UP | DOWN | 0
+396 | 5003 | 0 | UP | DOWN | 0
+398 | 2000 | 0 | UP | DOWN | 0
+400 | 2000 | 0 | UP | DOWN | 0
+402 | 2000 | 3002 | UP | DOWN | 0
+407 | 5003 | 0 | UP | DOWN | 0
+409 | 2000 | 0 | UP | DOWN | 0
+411 | 2000 | 0 | UP | DOWN | 0
+413 | 2000 | 3002 | UP | DOWN | 0
+418 | 5003 | 0 | UP | DOWN | 0
+420 | 2000 | 0 | UP | DOWN | 0
+SUMMARY after 150 loops: max period 5003 ms, loops over 2500 ms: 37
+422 | 2000 | 0 | UP | DOWN | 0
+424 | 2000 | 3002 | UP | DOWN | 0
+429 | 5003 | 0 | UP | DOWN | 0
+431 | 2000 | 0 | UP | DOWN | 0
+433 | 2000 | 0 | UP | DOWN | 0
+435 | 2000 | 3002 | UP | DOWN | 0
+440 | 5003 | 0 | UP | DOWN | 0
+442 | 2000 | 0 | UP | DOWN | 0
+444 | 2000 | 0 | UP | DOWN | 0
+446 | 2000 | 3002 | UP | DOWN | 0
+451 | 5003 | 0 | UP | DOWN | 0
+453 | 2000 | 0 | UP | DOWN | 0
+455 | 2000 | 0 | UP | DOWN | 0
+457 | 2000 | 3002 | UP | DOWN | 0
+462 | 5003 | 0 | UP | DOWN | 0
+SUMMARY after 165 loops: max period 5003 ms, loops over 2500 ms: 41
+464 | 2000 | 0 | UP | DOWN | 0
+466 | 2000 | 0 | UP | DOWN | 0
+468 | 2000 | 3002 | UP | DOWN | 0
+473 | 5003 | 0 | UP | DOWN | 0
+475 | 2000 | 0 | UP | DOWN | 0
+477 | 2000 | 0 | UP | DOWN | 0
+479 | 2000 | 3002 | UP | DOWN | 0
+484 | 5003 | 0 | UP | DOWN | 0
+486 | 2000 | 0 | UP | DOWN | 0
+488 | 2000 | 0 | UP | DOWN | 0
+490 | 2000 | 3002 | UP | DOWN | 0
+495 | 5003 | 0 | UP | DOWN | 0
+497 | 2000 | 0 | UP | DOWN | 0
+499 | 2000 | 0 | UP | DOWN | 0
+501 | 2000 | 3002 | UP | DOWN | 0
+SUMMARY after 180 loops: max period 5003 ms, loops over 2500 ms: 44
+506 | 5003 | 0 | UP | DOWN | 0
+508 | 2000 | 0 | UP | DOWN | 0
+510 | 2000 | 0 | UP | DOWN | 0
+512 | 2000 | 3002 | UP | DOWN | 0
+517 | 5003 | 0 | UP | DOWN | 0
+519 | 2000 | 0 | UP | DOWN | 0
+521 | 2000 | 0 | UP | DOWN | 0
+523 | 2000 | 3002 | UP | DOWN | 0
+528 | 5003 | 0 | UP | DOWN | 0
+530 | 2000 | 0 | UP | DOWN | 0
+532 | 2000 | 0 | UP | DOWN | 0
+534 | 2000 | 3002 | UP | DOWN | 0
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x8 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x10cc
+load:0x403c8700,len:0xc2c
+load:0x403cb700,len:0x30b0
+entry 0x403c88b8
+
+=== offline / latency test ===
+USE_NETWORK_TASK=0 SIMULATE_BLOCKING_ALERT_SOUND=0 MIMIC_ORIGINAL_SETSERVER=0
+....................
+Wi-Fi at boot: NOT connected
+columns: t_s | period_ms | net_ms | wifi | mqtt | published
+11 | 2000 | 0 | DOWN | DOWN | 0
+13 | 2000 | 0 | DOWN | DOWN | 0
+15 | 2000 | 0 | DOWN | DOWN | 0
+17 | 2000 | 0 | DOWN | DOWN | 0
+19 | 2000 | 0 | DOWN | DOWN | 0
+21 | 2000 | 0 | DOWN | DOWN | 0
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x2b (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x10cc
+load:0x403c8700,len:0xc2c
+load:0x403cb700,len:0x30b0
+entry 0x403c88b8
+
+=== offline / latency test ===
+USE_NETWORK_TASK=0 SIMULATE_BLOCKING_ALERT_SOUND=0 MIMIC_ORIGINAL_SETSERVER=0
+....................
+Wi-Fi at boot: NOT connected
+columns: t_s | period_ms | net_ms | wifi | mqtt | published
+11 | 2000 | 0 | DOWN | DOWN | 0
+13 | 2000 | 0 | DOWN | DOWN | 0
+15 | 2000 | 0 | DOWN | DOWN | 0
+17 | 2000 | 0 | DOWN | DOWN | 0
+19 | 2000 | 0 | DOWN | DOWN | 0
+21 | 2000 | 0 | DOWN | DOWN | 0
+23 | 2000 | 0 | DOWN | DOWN | 0
+25 | 2000 | 0 | DOWN | DOWN | 0
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x0 (DOWNLOAD(USB/UART0))
+waiting for download
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x8 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x10cc
+load:0x403c8700,len:0xc2c
+load:0x403cb700,len:0x30b0
+entry 0x403c88b8
+
+=== offline / latency test ===
+USE_NETWORK_TASK=0 SIMULATE_BLOCKING_ALERT_SOUND=0 MIMIC_ORIGINAL_SETSERVER=0
+....................
+Wi-Fi at boot: NOT connected
+columns: t_s | period_ms | net_ms | wifi | mqtt | published
+11 | 2000 | 0 | DOWN | DOWN | 0
+13 | 2000 | 0 | DOWN | DOWN | 0
+15 | 2000 | 0 | DOWN | DOWN | 0
+17 | 2000 | 0 | DOWN | DOWN | 0
+19 | 2000 | 0 | DOWN | DOWN | 0
+21 | 2000 | 0 | DOWN | DOWN | 0
+23 | 2000 | 0 | DOWN | DOWN | 0
+25 | 2000 | 0 | DOWN | DOWN | 0
+27 | 2000 | 0 | DOWN | DOWN | 0
+29 | 2000 | 0 | DOWN | DOWN | 0
+31 | 2000 | 0 | DOWN | DOWN | 0
+33 | 2000 | 0 | DOWN | DOWN | 0
+35 | 2000 | 1286 | UP | UP | 1
+38 | 3287 | 1 | UP | UP | 2
+40 | 2002 | 1 | UP | UP | 3
+SUMMARY after 15 loops: max period 3287 ms, loops over 2500 ms: 1
+42 | 2002 | 1 | UP | UP | 4
+44 | 2002 | 1 | UP | UP | 5
+46 | 2002 | 1 | UP | UP | 6
+48 | 2002 | 1 | UP | UP | 7
+50 | 2002 | 1 | UP | UP | 8
+52 | 2002 | 2 | UP | UP | 9
+54 | 2003 | 1 | UP | UP | 10
+56 | 2002 | 1 | UP | UP | 11
+58 | 2002 | 1 | UP | UP | 12
+60 | 2002 | 1 | UP | UP | 13
+62 | 2002 | 1 | UP | UP | 14
+64 | 2002 | 1 | UP | UP | 15
+66 | 2002 | 1 | UP | UP | 16
+68 | 2002 | 1 | UP | UP | 17
+70 | 2002 | 2 | UP | UP | 18
+SUMMARY after 30 loops: max period 3287 ms, loops over 2500 ms: 1
+72 | 2003 | 1 | UP | UP | 19
+74 | 2002 | 1 | UP | UP | 20
+76 | 2002 | 1 | UP | UP | 21
+78 | 2002 | 1 | UP | UP | 22
+80 | 2002 | 1 | UP | UP | 23
+82 | 2002 | 1 | UP | UP | 24
+84 | 2002 | 1 | UP | UP | 25
+86 | 2002 | 1 | UP | UP | 26
+88 | 2002 | 2 | UP | UP | 27
+90 | 2003 | 1 | UP | UP | 28
+92 | 2002 | 1 | UP | UP | 29
+94 | 2002 | 1 | UP | UP | 30
+96 | 2002 | 1 | UP | UP | 31
+98 | 2002 | 1 | UP | UP | 32
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x8 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x10cc
+load:0x403c8700,len:0xc2c
+load:0x403cb700,len:0x30b0
+entry 0x403c88b8
+
+=== offline / latency test ===
+USE_NETWORK_TASK=0 SIMULATE_BLOCKING_ALERT_SOUND=0 MIMIC_ORIGINAL_SETSERVER=0
+...
+Wi-Fi at boot: connected
+columns: t_s | period_ms | net_ms | wifi | mqtt | published
+3 | 2000 | 0 | UP | DOWN | 0
+5 | 2000 | 0 | UP | DOWN | 0
+7 | 2000 | 0 | UP | DOWN | 0
+9 | 2000 | 0 | UP | DOWN | 0
+11 | 2000 | 1000 | UP | UP | 1
+14 | 3001 | 1 | UP | UP | 2
+16 | 2002 | 1 | UP | UP | 3
+18 | 2002 | 1 | UP | UP | 4
+20 | 2002 | 1 | UP | UP | 5
+22 | 2002 | 1 | UP | UP | 6
+24 | 2002 | 1 | UP | UP | 7
+26 | 2002 | 1 | UP | UP | 8
+28 | 2002 | 2 | UP | UP | 9
+30 | 2003 | 1 | UP | UP | 10
+32 | 2002 | 1 | UP | UP | 11
+SUMMARY after 15 loops: max period 3001 ms, loops over 2500 ms: 1
+34 | 2002 | 1 | UP | UP | 12
+36 | 2002 | 1 | UP | UP | 13
+38 | 2002 | 1 | UP | UP | 14
+40 | 2002 | 1 | UP | UP | 15
+42 | 2002 | 1 | UP | UP | 16
+44 | 2002 | 1 | UP | UP | 17
+46 | 2002 | 2 | UP | UP | 18
+48 | 2003 | 1 | UP | UP | 19
+50 | 2002 | 1 | UP | UP | 20
+52 | 2002 | 1 | UP | UP | 21
+54 | 2002 | 1 | UP | UP | 22
+56 | 2002 | 1 | UP | UP | 23
+58 | 2002 | 1 | UP | UP | 24
+60 | 2002 | 1 | UP | UP | 25
+62 | 2002 | 1 | UP | UP | 26
+SUMMARY after 30 loops: max period 3001 ms, loops over 2500 ms: 1
+64 | 2002 | 2 | UP | UP | 27
+66 | 2003 | 1 | UP | UP | 28
+68 | 2002 | 1 | UP | UP | 29
+70 | 2002 | 1 | UP | UP | 30
+72 | 2002 | 1 | UP | UP | 31
+74 | 2002 | 1 | UP | UP | 32
+76 | 2002 | 1 | UP | UP | 33
+78 | 2002 | 1 | UP | UP | 34
+80 | 2002 | 1 | UP | UP | 35
+82 | 2002 | 2 | UP | UP | 36
+84 | 2003 | 1 | UP | UP | 37
+86 | 2002 | 1 | UP | UP | 38
+88 | 2002 | 1 | UP | UP | 39
+90 | 2002 | 1 | UP | UP | 40
+92 | 2002 | 1 | UP | UP | 41
+SUMMARY after 45 loops: max period 3001 ms, loops over 2500 ms: 1
+94 | 2002 | 1 | UP | UP | 42
+96 | 2002 | 1 | UP | UP | 43
+98 | 2002 | 1 | UP | UP | 44
+100 | 2002 | 2 | UP | UP | 45
+102 | 2003 | 1 | UP | UP | 46
+104 | 2002 | 1 | UP | UP | 47
+106 | 2002 | 1 | UP | UP | 48
+108 | 2002 | 1 | UP | UP | 49
+110 | 2002 | 1 | UP | UP | 50
+112 | 2002 | 1 | UP | UP | 51
+114 | 2002 | 1 | UP | UP | 52
+116 | 2002 | 1 | UP | UP | 53
+118 | 2002 | 2 | UP | UP | 54
+120 | 2003 | 1 | UP | UP | 55
+122 | 2002 | 1 | UP | UP | 56
+SUMMARY after 60 loops: max period 3001 ms, loops over 2500 ms: 1
+124 | 2002 | 1 | UP | UP | 57
+126 | 2002 | 1 | UP | UP | 58
+128 | 2002 | 1 | UP | UP | 59
+130 | 2002 | 1 | UP | UP | 60
+132 | 2002 | 1 | UP | UP | 61
+134 | 2002 | 1 | UP | UP | 62
+136 | 2002 | 2 | UP | UP | 63
+138 | 2003 | 1 | UP | UP | 64
+140 | 2002 | 1 | UP | UP | 65
+142 | 2002 | 1 | UP | UP | 66
+144 | 2002 | 1 | UP | UP | 67
+146 | 2002 | 1 | UP | UP | 68
+148 | 2002 | 1 | UP | UP | 69
+150 | 2002 | 1 | UP | UP | 70
+152 | 2002 | 1 | UP | UP | 71
+SUMMARY after 75 loops: max period 3001 ms, loops over 2500 ms: 1
+154 | 2002 | 2 | UP | UP | 72
+156 | 2003 | 1 | UP | UP | 73
+158 | 2002 | 1 | UP | UP | 74
+160 | 2002 | 1 | UP | UP | 75
+162 | 2002 | 1 | UP | UP | 76
+164 | 2002 | 1 | UP | UP | 77
+166 | 2002 | 1 | UP | UP | 78
+168 | 2002 | 1 | UP | UP | 79
+170 | 2002 | 1 | UP | UP | 80
+172 | 2002 | 2 | UP | UP | 81
+174 | 2003 | 1 | UP | UP | 82
+176 | 2002 | 1 | UP | UP | 83
+178 | 2002 | 1 | UP | UP | 84
+180 | 2002 | 1 | UP | UP | 85
+182 | 2002 | 1 | UP | UP | 86
+SUMMARY after 90 loops: max period 3001 ms, loops over 2500 ms: 1
+184 | 2002 | 1 | UP | UP | 87
+186 | 2002 | 1 | UP | UP | 88
+188 | 2002 | 1 | UP | UP | 89
+190 | 2002 | 2 | UP | UP | 90
+192 | 2003 | 1 | UP | UP | 91
+194 | 2002 | 1 | UP | UP | 92
+196 | 2002 | 1 | UP | UP | 93
+198 | 2002 | 1 | UP | UP | 94
+200 | 2002 | 1 | UP | UP | 95
+202 | 2002 | 1 | UP | UP | 96
+204 | 2002 | 1 | UP | UP | 97
+206 | 2002 | 1 | UP | UP | 98
+208 | 2002 | 2 | UP | UP | 99
+210 | 2003 | 1 | UP | UP | 100
+212 | 2002 | 1 | UP | UP | 101
+SUMMARY after 105 loops: max period 3001 ms, loops over 2500 ms: 1
+214 | 2002 | 1 | UP | UP | 102
+216 | 2002 | 1 | UP | UP | 103
+218 | 2002 | 1 | UP | UP | 104
+220 | 2002 | 1 | UP | UP | 105
+222 | 2002 | 1 | UP | UP | 106
+224 | 2002 | 1 | UP | UP | 107
+226 | 2002 | 2 | UP | UP | 108
+228 | 2003 | 1 | UP | UP | 109
+230 | 2002 | 1 | UP | UP | 110
+232 | 2002 | 1 | UP | UP | 111
+234 | 2002 | 1 | UP | UP | 112
+236 | 2002 | 1 | UP | UP | 113
+238 | 2002 | 1 | UP | UP | 114
+240 | 2002 | 1 | UP | UP | 115
+242 | 2002 | 1 | UP | UP | 116
+SUMMARY after 120 loops: max period 3001 ms, loops over 2500 ms: 1
+244 | 2002 | 2 | UP | UP | 117
+246 | 2003 | 1 | UP | UP | 118
+248 | 2002 | 1 | UP | UP | 119
+250 | 2002 | 1 | UP | UP | 120
+252 | 2002 | 1 | UP | UP | 121
+254 | 2002 | 1 | UP | UP | 122
+256 | 2002 | 1 | UP | UP | 123
+258 | 2002 | 1 | UP | UP | 124
+260 | 2002 | 1 | UP | UP | 125
+262 | 2002 | 2 | UP | UP | 126
+264 | 2003 | 1 | UP | UP | 127
+266 | 2002 | 1 | UP | UP | 128
+268 | 2002 | 1 | UP | UP | 129
+270 | 2002 | 1 | UP | UP | 130
+272 | 2002 | 1 | UP | UP | 131
+SUMMARY after 135 loops: max period 3001 ms, loops over 2500 ms: 1
+274 | 2002 | 1 | UP | UP | 132
+276 | 2002 | 1 | UP | UP | 133
+278 | 2002 | 1 | UP | UP | 134
+280 | 2002 | 2 | UP | UP | 135
+282 | 2003 | 1 | UP | UP | 136
+284 | 2002 | 1 | UP | UP | 137
+286 | 2002 | 1 | UP | UP | 138
+288 | 2002 | 1 | UP | UP | 139
+290 | 2002 | 1 | UP | UP | 140
+292 | 2002 | 1 | UP | UP | 141
+294 | 2002 | 1 | UP | UP | 142
+296 | 2002 | 1 | UP | UP | 143
+298 | 2002 | 2 | UP | UP | 144
+300 | 2003 | 1 | UP | UP | 145
+302 | 2002 | 1 | UP | UP | 146
+SUMMARY after 150 loops: max period 3001 ms, loops over 2500 ms: 1
+304 | 2002 | 1 | UP | UP | 147
+306 | 2002 | 1 | UP | UP | 148
+308 | 2002 | 1 | UP | UP | 149
+310 | 2002 | 1 | UP | UP | 150
+312 | 2002 | 1 | UP | UP | 151
+314 | 2002 | 1 | UP | UP | 152
+316 | 2002 | 2 | UP | UP | 153
+318 | 2003 | 1 | UP | UP | 154
+320 | 2002 | 1 | UP | UP | 155
+322 | 2002 | 1 | UP | UP | 156
+324 | 2002 | 1 | UP | UP | 157
+326 | 2002 | 1 | UP | UP | 158
+328 | 2002 | 1 | UP | UP | 159
+330 | 2002 | 1 | UP | UP | 160
+332 | 2002 | 1 | UP | UP | 161
+SUMMARY after 165 loops: max period 3001 ms, loops over 2500 ms: 1
+334 | 2002 | 2 | UP | UP | 162
+336 | 2003 | 1 | UP | UP | 163
+338 | 2002 | 1 | UP | UP | 164
+340 | 2002 | 1 | UP | UP | 165
+342 | 2002 | 1 | UP | UP | 166
+344 | 2002 | 1 | UP | UP | 167
+346 | 2002 | 1 | UP | UP | 168
+348 | 2002 | 1 | UP | UP | 169
+350 | 2002 | 1 | UP | UP | 170
+352 | 2002 | 2 | UP | UP | 171
+354 | 2003 | 1 | UP | UP | 172
+356 | 2002 | 1 | UP | UP | 173
+358 | 2002 | 1 | UP | UP | 174
+360 | 2002 | 1 | UP | UP | 175
+362 | 2002 | 1 | UP | UP | 176
+SUMMARY after 180 loops: max period 3001 ms, loops over 2500 ms: 1
+364 | 2002 | 1 | UP | UP | 177
+366 | 2002 | 1 | UP | UP | 178
+368 | 2002 | 1 | UP | UP | 179
+370 | 2002 | 2 | UP | UP | 180
+372 | 2003 | 1 | UP | UP | 181
+374 | 2002 | 1 | UP | UP | 182
+376 | 2002 | 1 | UP | UP | 183
+378 | 2002 | 1 | UP | UP | 184
+380 | 2002 | 1 | UP | UP | 185
+382 | 2002 | 1 | UP | UP | 186
+384 | 2002 | 1 | UP | UP | 187
+386 | 2002 | 1 | UP | UP | 188
+388 | 2002 | 2 | UP | UP | 189
+390 | 2003 | 1 | UP | UP | 190
+392 | 2002 | 1 | UP | UP | 191
+SUMMARY after 195 loops: max period 3001 ms, loops over 2500 ms: 1
+394 | 2002 | 1 | UP | UP | 192
+396 | 2002 | 1 | UP | UP | 193
+398 | 2002 | 1 | UP | UP | 194
+400 | 2002 | 1 | UP | UP | 195
+402 | 2002 | 1 | UP | UP | 196
+404 | 2002 | 1 | UP | UP | 197
+406 | 2002 | 2 | UP | UP | 198
+408 | 2003 | 1 | UP | UP | 199
+410 | 2002 | 1 | UP | UP | 200
+412 | 2002 | 1 | UP | UP | 201
+414 | 2002 | 1 | UP | UP | 202
+416 | 2002 | 1 | UP | UP | 203
+418 | 2002 | 1 | UP | UP | 204
+420 | 2002 | 1 | UP | UP | 205
+422 | 2002 | 1 | UP | UP | 206
+SUMMARY after 210 loops: max period 3001 ms, loops over 2500 ms: 1
+424 | 2002 | 2 | UP | UP | 207
+426 | 2003 | 1 | UP | UP | 208
+428 | 2002 | 1 | UP | UP | 209
+430 | 2002 | 1 | UP | UP | 210
+432 | 2002 | 1 | UP | UP | 211
+434 | 2002 | 1 | UP | UP | 212
+436 | 2002 | 1 | UP | UP | 213
+438 | 2002 | 1 | UP | UP | 214
+440 | 2002 | 1 | UP | UP | 215
+442 | 2002 | 2 | UP | UP | 216
+444 | 2003 | 1 | UP | UP | 217
+446 | 2002 | 1 | UP | UP | 218
+448 | 2002 | 1 | UP | UP | 219
+450 | 2002 | 1 | UP | UP | 220
+452 | 2002 | 1 | UP | UP | 221
+SUMMARY after 225 loops: max period 3001 ms, loops over 2500 ms: 1
+454 | 2002 | 1 | UP | UP | 222
+456 | 2002 | 1 | UP | UP | 223
+458 | 2002 | 1 | UP | UP | 224
+460 | 2002 | 2 | UP | UP | 225
+462 | 2003 | 1 | UP | UP | 226
+464 | 2002 | 1 | UP | UP | 227
+466 | 2002 | 1 | UP | UP | 228
+468 | 2002 | 1 | UP | UP | 229
+470 | 2002 | 1 | UP | UP | 230
+472 | 2002 | 1 | UP | UP | 231
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x8 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x10cc
+load:0x403c8700,len:0xc2c
+load:0x403cb700,len:0x30b0
+entry 0x403c88b8
+
+=== offline / latency test ===
+USE_NETWORK_TASK=0 SIMULATE_BLOCKING_ALERT_SOUND=0 MIMIC_ORIGINAL_SETSERVER=0
+....................
+Wi-Fi at boot: NOT connected
+columns: t_s | period_ms | net_ms | wifi | mqtt | published
+11 | 2000 | 0 | DOWN | DOWN | 0
+13 | 2000 | 1500 | UP | UP | 1
+17 | 3501 | 1 | UP | UP | 2
+19 | 2002 | 1 | UP | UP | 3
+21 | 2002 | 1 | UP | UP | 4
+23 | 2002 | 1 | UP | UP | 5
+25 | 2002 | 1 | UP | UP | 6
+27 | 2002 | 1 | UP | UP | 7
+29 | 2002 | 1 | UP | UP | 8
+31 | 2002 | 2 | UP | UP | 9
+33 | 2003 | 1 | UP | UP | 10
+35 | 2002 | 1 | UP | UP | 11
+37 | 2002 | 1 | UP | UP | 12
+39 | 2002 | 1 | UP | UP | 13
+41 | 2002 | 1 | UP | UP | 14
+SUMMARY after 15 loops: max period 3501 ms, loops over 2500 ms: 1
+43 | 2002 | 1 | UP | UP | 15
+45 | 2002 | 1 | UP | UP | 16
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x2b (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x10cc
+load:0x403c8700,len:0xc2c
+load:0x403cb700,len:0x30b0
+entry 0x403c88b8
+
+=== offline / latency test ===
+USE_NETWORK_TASK=0 SIMULATE_BLOCKING_ALERT_SOUND=0 MIMIC_ORIGINAL_SETSERVER=0
+....................
+Wi-Fi at boot: NOT connected
+columns: t_s | period_ms | net_ms | wifi | mqtt | published
+11 | 2000 | 0 | DOWN | DOWN | 0
+13 | 2000 | 952 | UP | UP | 1
+16 | 2952 | 1 | UP | UP | 2
+18 | 2002 | 1 | UP | UP | 3
+20 | 2002 | 1 | UP | UP | 4
+22 | 2002 | 1 | UP | UP | 5
+24 | 2002 | 1 | UP | UP | 6
+26 | 2002 | 1 | UP | UP | 7
+28 | 2002 | 1 | UP | UP | 8
+30 | 2002 | 2 | UP | UP | 9
+32 | 2003 | 1 | UP | UP | 10
+34 | 2002 | 1 | UP | UP | 11
+36 | 2002 | 1 | UP | UP | 12
+38 | 2002 | 1 | UP | UP | 13
+40 | 2002 | 1 | UP | UP | 14
+SUMMARY after 15 loops: max period 2952 ms, loops over 2500 ms: 1
+42 | 2002 | 1 | UP | UP | 15
+44 | 2002 | 1 | UP | UP | 16
+46 | 2002 | 1 | UP | UP | 17
+48 | 2002 | 2 | UP | UP | 18
+50 | 2003 | 1 | UP | UP | 19
+52 | 2002 | 1 | UP | UP | 20
+54 | 2002 | 1 | UP | UP | 21
+56 | 2002 | 1 | UP | UP | 22
+58 | 2002 | 1 | UP | UP | 23
+60 | 2002 | 1 | UP | UP | 24
+62 | 2002 | 1 | UP | UP | 25
+64 | 2002 | 1 | UP | UP | 26
+66 | 2002 | 2 | UP | UP | 27
+68 | 2003 | 1 | UP | UP | 28
+70 | 2002 | 1 | UP | UP | 29
+SUMMARY after 30 loops: max period 2952 ms, loops over 2500 ms: 1
+72 | 2002 | 1 | UP | UP | 30
+74 | 2002 | 1 | UP | UP | 31
+76 | 2002 | 1 | UP | UP | 32
+78 | 2002 | 1 | UP | UP | 33
+80 | 2002 | 1 | UP | UP | 34
+82 | 2002 | 1 | UP | UP | 35
+84 | 2002 | 2 | UP | UP | 36
+86 | 2003 | 1 | UP | UP | 37
+88 | 2002 | 1 | UP | UP | 38
+90 | 2002 | 1 | UP | UP | 39
+92 | 2002 | 1 | UP | UP | 40
+94 | 2002 | 1 | UP | UP | 41
+96 | 2002 | 1 | UP | UP | 42
+98 | 2002 | 1 | UP | UP | 43
+100 | 2002 | 1 | UP | UP | 44
+SUMMARY after 45 loops: max period 2952 ms, loops over 2500 ms: 1
+102 | 2002 | 2 | UP | UP | 45
+104 | 2003 | 1 | UP | UP | 46
+106 | 2002 | 1 | UP | UP | 47
+108 | 2002 | 1 | UP | UP | 48
+110 | 2002 | 1 | UP | UP | 49
+112 | 2002 | 1 | UP | UP | 50
+114 | 2002 | 1 | UP | UP | 51
+116 | 2002 | 1 | UP | UP | 52
+118 | 2002 | 1 | UP | UP | 53
+120 | 2002 | 2 | UP | UP | 54
+122 | 2003 | 1 | UP | UP | 55
+124 | 2002 | 1 | UP | UP | 56
+126 | 2002 | 1 | UP | UP | 57
+128 | 2002 | 1 | UP | UP | 58
+130 | 2002 | 1 | UP | UP | 59
+SUMMARY after 60 loops: max period 2952 ms, loops over 2500 ms: 1
+132 | 2002 | 1 | UP | UP | 60
+134 | 2002 | 1 | UP | UP | 61
+136 | 2002 | 1 | UP | UP | 62
+138 | 2002 | 2 | UP | UP | 63
+140 | 2003 | 1 | UP | UP | 64
+142 | 2002 | 1 | UP | UP | 65
+144 | 2002 | 1 | UP | UP | 66
+146 | 2002 | 1 | UP | UP | 67
+148 | 2002 | 1 | UP | UP | 68
+150 | 2002 | 1 | UP | UP | 69
+152 | 2002 | 1 | UP | UP | 70
+154 | 2002 | 1 | UP | UP | 71
+156 | 2002 | 2 | UP | UP | 72
+158 | 2003 | 1 | UP | UP | 73
+160 | 2002 | 1 | UP | UP | 74
+SUMMARY after 75 loops: max period 2952 ms, loops over 2500 ms: 1
+162 | 2002 | 1 | UP | UP | 75
+164 | 2002 | 1 | UP | UP | 76
+166 | 2002 | 1 | UP | UP | 77
+168 | 2002 | 1 | UP | UP | 78
+170 | 2001 | 1 | UP | UP | 79
+172 | 2002 | 1 | UP | UP | 80
+174 | 2001 | 2 | UP | UP | 81
+176 | 2003 | 1 | UP | UP | 82
+178 | 2002 | 1 | UP | UP | 83
+180 | 2002 | 1 | UP | UP | 84
+182 | 2002 | 1 | UP | UP | 85
+184 | 2002 | 1 | UP | UP | 86
+186 | 2002 | 1 | UP | UP | 87
+188 | 2002 | 1 | UP | UP | 88
+190 | 2002 | 1 | UP | UP | 89
+SUMMARY after 90 loops: max period 2952 ms, loops over 2500 ms: 1
+192 | 2002 | 2 | UP | UP | 90
+194 | 2003 | 1 | UP | UP | 91
+196 | 2002 | 1 | UP | UP | 92
+198 | 2002 | 1 | UP | UP | 93
+200 | 2002 | 1 | UP | UP | 94
+202 | 2002 | 1 | UP | UP | 95
+204 | 2002 | 1 | UP | UP | 96
+206 | 2002 | 1 | UP | UP | 97
+208 | 2002 | 1 | UP | UP | 98
+210 | 2002 | 2 | UP | UP | 99
+212 | 2003 | 1 | UP | UP | 100
+214 | 2002 | 1 | UP | UP | 101
+216 | 2002 | 1 | UP | UP | 102
+218 | 2002 | 1 | UP | UP | 103
+220 | 2002 | 1 | UP | UP | 104
+SUMMARY after 105 loops: max period 2952 ms, loops over 2500 ms: 1
+222 | 2002 | 1 | UP | UP | 105
+224 | 2002 | 1 | UP | UP | 106
+226 | 2002 | 1 | UP | UP | 107
+228 | 2001 | 2 | UP | UP | 108
+230 | 2003 | 1 | UP | UP | 109
+232 | 2002 | 1 | UP | UP | 110
+234 | 2002 | 1 | UP | UP | 111
+236 | 2002 | 1 | UP | UP | 112
+238 | 2002 | 1 | UP | UP | 113
+240 | 2002 | 1 | UP | UP | 114
+242 | 2002 | 1 | UP | UP | 115
+244 | 2002 | 1 | UP | UP | 116
+246 | 2002 | 2 | UP | UP | 117
+248 | 2003 | 1 | UP | UP | 118
+250 | 2002 | 1 | UP | UP | 119
+SUMMARY after 120 loops: max period 2952 ms, loops over 2500 ms: 1
+252 | 2002 | 1 | UP | UP | 120
+254 | 2002 | 1 | UP | UP | 121
+256 | 2002 | 1 | UP | UP | 122
+258 | 2002 | 1 | UP | UP | 123
+260 | 2002 | 1 | UP | UP | 124
+262 | 2002 | 1 | UP | UP | 125
+264 | 2002 | 2 | UP | UP | 126
+266 | 2003 | 1 | UP | UP | 127
+268 | 2002 | 1 | UP | UP | 128
+270 | 2002 | 1 | UP | UP | 129
+272 | 2002 | 1 | UP | UP | 130
+274 | 2002 | 1 | UP | UP | 131
+276 | 2002 | 1 | UP | UP | 132
+278 | 2002 | 1 | UP | UP | 133
+280 | 2002 | 1 | UP | UP | 134
+SUMMARY after 135 loops: max period 2952 ms, loops over 2500 ms: 1
+282 | 2002 | 2 | UP | UP | 135
+284 | 2003 | 1 | UP | UP | 136
+286 | 2002 | 1 | UP | UP | 137
+288 | 2002 | 1 | UP | UP | 138
+290 | 2002 | 1 | UP | UP | 139
+292 | 2002 | 1 | UP | UP | 140
+294 | 2002 | 1 | UP | UP | 141
+296 | 2002 | 1 | UP | UP | 142
+298 | 2002 | 1 | UP | UP | 143
+300 | 2002 | 2 | UP | UP | 144
+302 | 2003 | 1 | UP | UP | 145
+304 | 2002 | 1 | UP | UP | 146
+306 | 2002 | 1 | UP | UP | 147
+308 | 2002 | 1 | UP | UP | 148
+310 | 2002 | 1 | UP | UP | 149
+SUMMARY after 150 loops: max period 2952 ms, loops over 2500 ms: 1
+312 | 2001 | 1 | UP | UP | 150
+314 | 2002 | 1 | UP | UP | 151
+316 | 2001 | 1 | UP | UP | 152
+318 | 2002 | 1 | UP | UP | 153
+320 | 2002 | 1 | UP | UP | 154
+322 | 2002 | 1 | UP | UP | 155
+324 | 2001 | 1 | UP | UP | 156
+326 | 2002 | 1 | UP | UP | 157
+328 | 2002 | 1 | UP | UP | 158
+330 | 2002 | 1 | UP | UP | 159
+332 | 2002 | 1 | UP | UP | 160
+334 | 2002 | 1 | UP | UP | 161
+336 | 2001 | 2 | UP | UP | 162
+338 | 2003 | 1 | UP | UP | 163
+340 | 2002 | 1 | UP | UP | 164
+SUMMARY after 165 loops: max period 2952 ms, loops over 2500 ms: 1
+342 | 2002 | 1 | UP | UP | 165
+344 | 2001 | 1 | UP | UP | 166
+346 | 2001 | 1 | UP | UP | 167
+348 | 2001 | 1 | UP | UP | 168
+350 | 2001 | 1 | UP | UP | 169
+352 | 2002 | 1 | UP | UP | 170
+354 | 2001 | 1 | UP | UP | 171
+356 | 2002 | 1 | UP | UP | 172
+358 | 2001 | 1 | UP | UP | 173
+360 | 2002 | 1 | UP | UP | 174
+362 | 2002 | 1 | UP | UP | 175
+364 | 2002 | 1 | UP | UP | 176
+366 | 2002 | 1 | UP | UP | 177
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x8 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x10cc
+load:0x403c8700,len:0xc2c
+load:0x403cb700,len:0x30b0
+entry 0x403c88b8
+
+=== offline / latency test ===
+USE_NETWORK_TASK=0 SIMULATE_BLOCKING_ALERT_SOUND=0 MIMIC_ORIGINAL_SETSERVER=0
+....................
+Wi-Fi at boot: NOT connected
+columns: t_s | period_ms | net_ms | wifi | mqtt | published
+11 | 2000 | 0 | DOWN | DOWN | 0
+13 | 2000 | 0 | DOWN | DOWN | 0
+15 | 2000 | 0 | DOWN | DOWN | 0
+17 | 2000 | 0 | DOWN | DOWN | 0
+19 | 2000 | 0 | DOWN | DOWN | 0
+21 | 2000 | 0 | DOWN | DOWN | 0
+23 | 2000 | 0 | DOWN | DOWN | 0
+25 | 2000 | 0 | DOWN | DOWN | 0
+27 | 2000 | 0 | DOWN | DOWN | 0
+29 | 2000 | 0 | DOWN | DOWN | 0
+31 | 2000 | 0 | DOWN | DOWN | 0
+33 | 2000 | 0 | DOWN | DOWN | 0
+35 | 2000 | 0 | DOWN | DOWN | 0
+37 | 2000 | 0 | DOWN | DOWN | 0
+39 | 2000 | 0 | DOWN | DOWN | 0
+SUMMARY after 15 loops: max period 2000 ms, loops over 2500 ms: 0
+41 | 2000 | 0 | DOWN | DOWN | 0
+43 | 2000 | 0 | DOWN | DOWN | 0
+45 | 2000 | 0 | DOWN | DOWN | 0
+47 | 2000 | 0 | DOWN | DOWN | 0
+49 | 2000 | 0 | DOWN | DOWN | 0
+51 | 2000 | 0 | DOWN | DOWN | 0
+53 | 2000 | 0 | DOWN | DOWN | 0
+55 | 2000 | 0 | DOWN | DOWN | 0
+57 | 2000 | 0 | DOWN | DOWN | 0
+59 | 2000 | 0 | DOWN | DOWN | 0
+61 | 2000 | 0 | DOWN | DOWN | 0
+63 | 2000 | 0 | DOWN | DOWN | 0
+65 | 2000 | 0 | DOWN | DOWN | 0
+67 | 2000 | 0 | DOWN | DOWN | 0
+69 | 2000 | 0 | DOWN | DOWN | 0
+SUMMARY after 30 loops: max period 2000 ms, loops over 2500 ms: 0
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x2b (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x10cc
+load:0x403c8700,len:0xc2c
+load:0x403cb700,len:0x30b0
+entry 0x403c88b8
+
+=== offline / latency test ===
+USE_NETWORK_TASK=0 SIMULATE_BLOCKING_ALERT_SOUND=0 MIMIC_ORIGINAL_SETSERVER=0
+....................
+Wi-Fi at boot: NOT connected
+columns: t_s | period_ms | net_ms | wifi | mqtt | published
+11 | 2000 | 0 | DOWN | DOWN | 0
+13 | 2000 | 0 | DOWN | DOWN | 0
+15 | 2000 | 0 | DOWN | DOWN | 0
+17 | 2000 | 0 | DOWN | DOWN | 0
+19 | 2000 | 0 | DOWN | DOWN | 0
+21 | 2000 | 0 | DOWN | DOWN | 0
+23 | 2000 | 0 | DOWN | DOWN | 0
+25 | 2000 | 0 | DOWN | DOWN | 0
+27 | 2000 | 0 | DOWN | DOWN | 0
+29 | 2000 | 0 | DOWN | DOWN | 0
+31 | 2000 | 0 | DOWN | DOWN | 0
+33 | 2000 | 0 | DOWN | DOWN | 0
+35 | 2000 | 0 | DOWN | DOWN | 0
+37 | 2000 | 0 | DOWN | DOWN | 0
+39 | 2000 | 0 | DOWN | DOWN | 0
+SUMMARY after 15 loops: max period 2000 ms, loops over 2500 ms: 0
+41 | 2000 | 0 | DOWN | DOWN | 0
+43 | 2000 | 0 | DOWN | DOWN | 0
+45 | 2000 | 0 | DOWN | DOWN | 0
+47 | 2000 | 0 | DOWN | DOWN | 0
+49 | 2000 | 0 | DOWN | DOWN | 0
+51 | 2000 | 0 | DOWN | DOWN | 0
+53 | 2000 | 0 | DOWN | DOWN | 0
+55 | 2000 | 0 | DOWN | DOWN | 0
+57 | 2000 | 0 | DOWN | DOWN | 0
+59 | 2000 | 0 | DOWN | DOWN | 0
+61 | 2000 | 0 | DOWN | DOWN | 0
+63 | 2000 | 0 | DOWN | DOWN | 0
+65 | 2000 | 0 | DOWN | DOWN | 0
+67 | 2000 | 0 | DOWN | DOWN | 0
+69 | 2000 | 0 | DOWN | DOWN | 0
+SUMMARY after 30 loops: max period 2000 ms, loops over 2500 ms: 0
+71 | 2000 | 0 | DOWN | DOWN | 0
+73 | 2000 | 0 | DOWN | DOWN | 0
+75 | 2000 | 0 | DOWN | DOWN | 0
+77 | 2000 | 0 | DOWN | DOWN | 0
+79 | 2000 | 0 | DOWN | DOWN | 0
+81 | 2000 | 0 | DOWN | DOWN | 0
+83 | 2000 | 0 | DOWN | DOWN | 0
+85 | 2000 | 0 | DOWN | DOWN | 0
+87 | 2000 | 0 | DOWN | DOWN | 0
+89 | 2000 | 0 | DOWN | DOWN | 0
+91 | 2000 | 0 | DOWN | DOWN | 0
+93 | 2000 | 0 | DOWN | DOWN | 0
+95 | 2000 | 0 | DOWN | DOWN | 0
+97 | 2000 | 0 | DOWN | DOWN | 0
+99 | 2000 | 0 | DOWN | DOWN | 0
+SUMMARY after 45 loops: max period 2000 ms, loops over 2500 ms: 0
+101 | 2000 | 0 | DOWN | DOWN | 0
+103 | 2000 | 0 | DOWN | DOWN | 0
+105 | 2000 | 0 | DOWN | DOWN | 0
+107 | 2000 | 0 | DOWN | DOWN | 0
+109 | 2000 | 0 | DOWN | DOWN | 0
+111 | 2000 | 0 | DOWN | DOWN | 0
+113 | 2000 | 0 | DOWN | DOWN | 0
+115 | 2000 | 0 | DOWN | DOWN | 0
+117 | 2000 | 0 | DOWN | DOWN | 0
+119 | 2000 | 0 | DOWN | DOWN | 0
+121 | 2000 | 0 | DOWN | DOWN | 0
+123 | 2000 | 0 | DOWN | DOWN | 0
+125 | 2000 | 0 | DOWN | DOWN | 0
+127 | 2000 | 0 | DOWN | DOWN | 0
+129 | 2000 | 0 | DOWN | DOWN | 0
+SUMMARY after 60 loops: max period 2000 ms, loops over 2500 ms: 0
+131 | 2000 | 0 | DOWN | DOWN | 0
+133 | 2000 | 0 | DOWN | DOWN | 0
+135 | 2000 | 0 | DOWN | DOWN | 0
+137 | 2000 | 0 | DOWN | DOWN | 0
+139 | 2000 | 0 | DOWN | DOWN | 0
+141 | 2000 | 0 | DOWN | DOWN | 0
+143 | 2000 | 0 | DOWN | DOWN | 0
+145 | 2000 | 0 | DOWN | DOWN | 0
+147 | 2000 | 0 | DOWN | DOWN | 0
+149 | 2000 | 0 | DOWN | DOWN | 0
+151 | 2000 | 0 | DOWN | DOWN | 0
+153 | 2000 | 0 | DOWN | DOWN | 0
+155 | 2000 | 0 | DOWN | DOWN | 0
+157 | 2000 | 0 | DOWN | DOWN | 0
+159 | 2000 | 0 | DOWN | DOWN | 0
+SUMMARY after 75 loops: max period 2000 ms, loops over 2500 ms: 0
+161 | 2000 | 0 | DOWN | DOWN | 0
+163 | 2000 | 0 | DOWN | DOWN | 0
+165 | 2000 | 0 | DOWN | DOWN | 0
+167 | 2000 | 0 | DOWN | DOWN | 0
+169 | 2000 | 0 | DOWN | DOWN | 0
+171 | 2000 | 0 | DOWN | DOWN | 0
+173 | 2000 | 0 | DOWN | DOWN | 0
+175 | 2000 | 0 | DOWN | DOWN | 0
+177 | 2000 | 0 | DOWN | DOWN | 0
+179 | 2000 | 0 | DOWN | DOWN | 0
+181 | 2000 | 0 | DOWN | DOWN | 0
+183 | 2000 | 0 | DOWN | DOWN | 0
+185 | 2000 | 0 | DOWN | DOWN | 0
+187 | 2000 | 0 | DOWN | DOWN | 0
+189 | 2000 | 0 | DOWN | DOWN | 0
+SUMMARY after 90 loops: max period 2000 ms, loops over 2500 ms: 0
+191 | 2000 | 0 | DOWN | DOWN | 0
+193 | 2000 | 0 | DOWN | DOWN | 0
+195 | 2000 | 0 | DOWN | DOWN | 0
+197 | 2000 | 0 | DOWN | DOWN | 0
+199 | 2000 | 0 | DOWN | DOWN | 0
+201 | 2000 | 0 | DOWN | DOWN | 0
+203 | 2000 | 0 | DOWN | DOWN | 0
+205 | 2000 | 0 | DOWN | DOWN | 0
+207 | 2000 | 0 | DOWN | DOWN | 0
+209 | 2000 | 0 | DOWN | DOWN | 0
+211 | 2000 | 0 | DOWN | DOWN | 0
+213 | 2000 | 0 | DOWN | DOWN | 0
+215 | 2000 | 0 | DOWN | DOWN | 0
+217 | 2000 | 0 | DOWN | DOWN | 0
+219 | 2000 | 0 | DOWN | DOWN | 0
+SUMMARY after 105 loops: max period 2000 ms, loops over 2500 ms: 0
+221 | 2000 | 0 | DOWN | DOWN | 0
+223 | 2000 | 0 | DOWN | DOWN | 0
+225 | 2000 | 0 | DOWN | DOWN | 0
+227 | 2000 | 0 | DOWN | DOWN | 0
+229 | 2000 | 0 | DOWN | DOWN | 0
+231 | 2000 | 0 | DOWN | DOWN | 0
+233 | 2000 | 0 | DOWN | DOWN | 0
+235 | 2000 | 0 | DOWN | DOWN | 0
+237 | 2000 | 0 | DOWN | DOWN | 0
+239 | 2000 | 0 | DOWN | DOWN | 0
+241 | 2000 | 0 | DOWN | DOWN | 0
+243 | 2000 | 0 | DOWN | DOWN | 0
+245 | 2000 | 0 | DOWN | DOWN | 0
+247 | 2000 | 0 | DOWN | DOWN | 0
+249 | 2000 | 0 | DOWN | DOWN | 0
+SUMMARY after 120 loops: max period 2000 ms, loops over 2500 ms: 0
+251 | 2000 | 0 | DOWN | DOWN | 0
+253 | 2000 | 0 | DOWN | DOWN | 0
+255 | 2000 | 0 | DOWN | DOWN | 0
+257 | 2000 | 0 | DOWN | DOWN | 0
+259 | 2000 | 0 | DOWN | DOWN | 0
+261 | 2000 | 0 | DOWN | DOWN | 0
+263 | 2000 | 0 | DOWN | DOWN | 0
+265 | 2000 | 0 | DOWN | DOWN | 0
+267 | 2000 | 0 | DOWN | DOWN | 0
+269 | 2000 | 0 | DOWN | DOWN | 0
+271 | 2000 | 0 | DOWN | DOWN | 0
+273 | 2000 | 0 | DOWN | DOWN | 0
+275 | 2000 | 0 | DOWN | DOWN | 0
+277 | 2000 | 0 | DOWN | DOWN | 0
+279 | 2000 | 0 | DOWN | DOWN | 0
+SUMMARY after 135 loops: max period 2000 ms, loops over 2500 ms: 0
+281 | 2000 | 0 | DOWN | DOWN | 0
+283 | 2000 | 0 | DOWN | DOWN | 0
+285 | 2000 | 0 | DOWN | DOWN | 0
+287 | 2000 | 0 | DOWN | DOWN | 0
+289 | 2000 | 0 | DOWN | DOWN | 0
+291 | 2000 | 0 | DOWN | DOWN | 0
+293 | 2000 | 0 | DOWN | DOWN | 0
+295 | 2000 | 0 | DOWN | DOWN | 0
+297 | 2000 | 0 | DOWN | DOWN | 0
+299 | 2000 | 0 | DOWN | DOWN | 0
+301 | 2000 | 0 | DOWN | DOWN | 0
+303 | 2000 | 0 | DOWN | DOWN | 0
+305 | 2000 | 0 | DOWN | DOWN | 0
+307 | 2000 | 0 | DOWN | DOWN | 0
+309 | 2000 | 0 | DOWN | DOWN | 0
+SUMMARY after 150 loops: max period 2000 ms, loops over 2500 ms: 0
+311 | 2000 | 0 | DOWN | DOWN | 0
+313 | 2000 | 0 | DOWN | DOWN | 0
+315 | 2000 | 0 | DOWN | DOWN | 0
+317 | 2000 | 0 | DOWN | DOWN | 0
+319 | 2000 | 0 | DOWN | DOWN | 0
+321 | 2000 | 0 | DOWN | DOWN | 0
+323 | 2000 | 0 | DOWN | DOWN | 0
+325 | 2000 | 0 | DOWN | DOWN | 0
+327 | 2000 | 0 | DOWN | DOWN | 0
+329 | 2000 | 0 | DOWN | DOWN | 0
+331 | 2000 | 0 | DOWN | DOWN | 0
+333 | 2000 | 0 | DOWN | DOWN | 0
+335 | 2000 | 0 | DOWN | DOWN | 0
+337 | 2000 | 0 | DOWN | DOWN | 0
+339 | 2000 | 0 | DOWN | DOWN | 0
+SUMMARY after 165 loops: max period 2000 ms, loops over 2500 ms: 0
+341 | 2000 | 0 | DOWN | DOWN | 0
+343 | 2000 | 0 | DOWN | DOWN | 0
+345 | 2000 | 0 | DOWN | DOWN | 0
+347 | 2000 | 0 | DOWN | DOWN | 0
+349 | 2000 | 0 | DOWN | DOWN | 0
+351 | 2000 | 0 | DOWN | DOWN | 0
+353 | 2000 | 0 | DOWN | DOWN | 0
+355 | 2000 | 0 | DOWN | DOWN | 0
+357 | 2000 | 0 | DOWN | DOWN | 0
+359 | 2000 | 0 | DOWN | DOWN | 0
+361 | 2000 | 0 | DOWN | DOWN | 0
+363 | 2000 | 0 | DOWN | DOWN | 0
+365 | 2000 | 0 | DOWN | DOWN | 0
+367 | 2000 | 0 | DOWN | DOWN | 0
+369 | 2000 | 0 | DOWN | DOWN | 0
+SUMMARY after 180 loops: max period 2000 ms, loops over 2500 ms: 0
+371 | 2000 | 0 | DOWN | DOWN | 0
+373 | 2000 | 0 | DOWN | DOWN | 0
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x8 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x10cc
+load:0x403c8700,len:0xc2c
+load:0x403cb700,len:0x30b0
+entry 0x403c88b8
+
+=== offline / latency test ===
+USE_NETWORK_TASK=0 SIMULATE_BLOCKING_ALERT_SOUND=0 MIMIC_ORIGINAL_SETSERVER=0
+...
+Wi-Fi at boot: connected
+columns: t_s | period_ms | net_ms | wifi | mqtt | published
+3 | 2000 | 0 | UP | DOWN | 0
+5 | 2000 | 0 | UP | DOWN | 0
+7 | 2000 | 0 | UP | DOWN | 0
+9 | 2000 | 0 | UP | DOWN | 0
+11 | 2000 | 3003 | UP | DOWN | 0
+16 | 5004 | 0 | UP | DOWN | 0
+18 | 2000 | 0 | UP | DOWN | 0
+20 | 2000 | 0 | UP | DOWN | 0
+22 | 2000 | 15039 | UP | DOWN | 0
+39 | 17039 | 15127 | UP | DOWN | 0
+56 | 17127 | 3002 | UP | DOWN | 0
+61 | 5003 | 0 | UP | DOWN | 0
+63 | 2000 | 0 | UP | DOWN | 0
+65 | 2000 | 0 | UP | DOWN | 0
+67 | 2000 | 15033 | UP | DOWN | 0
+SUMMARY after 15 loops: max period 17127 ms, loops over 2500 ms: 4
+84 | 17033 | 3002 | UP | DOWN | 0
+89 | 5003 | 0 | UP | DOWN | 0
+91 | 2000 | 0 | UP | DOWN | 0
+93 | 2000 | 0 | UP | DOWN | 0
+95 | 2000 | 3002 | UP | DOWN | 0
+100 | 5003 | 0 | UP | DOWN | 0
+102 | 2000 | 0 | UP | DOWN | 0
+104 | 2000 | 0 | UP | DOWN | 0
+106 | 2000 | 3002 | UP | DOWN | 0
+111 | 5003 | 0 | UP | DOWN | 0
+113 | 2000 | 0 | UP | DOWN | 0
+115 | 2000 | 0 | UP | DOWN | 0
+117 | 2000 | 3002 | UP | DOWN | 0
+122 | 5003 | 0 | UP | DOWN | 0
+124 | 2000 | 0 | UP | DOWN | 0
+SUMMARY after 30 loops: max period 17127 ms, loops over 2500 ms: 9
+126 | 2000 | 0 | UP | DOWN | 0
+128 | 2000 | 3002 | UP | DOWN | 0
+133 | 5003 | 0 | UP | DOWN | 0
+135 | 2000 | 0 | UP | DOWN | 0
+137 | 2000 | 0 | UP | DOWN | 0
+139 | 2000 | 3002 | UP | DOWN | 0
+144 | 5003 | 0 | UP | DOWN | 0
+146 | 2000 | 0 | UP | DOWN | 0
+148 | 2000 | 0 | UP | DOWN | 0
+150 | 2000 | 3002 | UP | DOWN | 0
+155 | 5003 | 0 | UP | DOWN | 0
+157 | 2000 | 0 | UP | DOWN | 0
+159 | 2000 | 0 | UP | DOWN | 0
+161 | 2000 | 3002 | UP | DOWN | 0
+166 | 5003 | 0 | UP | DOWN | 0
+SUMMARY after 45 loops: max period 17127 ms, loops over 2500 ms: 13
+168 | 2000 | 0 | UP | DOWN | 0
+170 | 2000 | 0 | UP | DOWN | 0
+172 | 2000 | 3002 | UP | DOWN | 0
+177 | 5003 | 0 | UP | DOWN | 0
+179 | 2000 | 0 | UP | DOWN | 0
+181 | 2000 | 0 | UP | DOWN | 0
+183 | 2000 | 3002 | UP | DOWN | 0
+188 | 5003 | 0 | UP | DOWN | 0
+190 | 2000 | 0 | UP | DOWN | 0
+192 | 2000 | 0 | UP | DOWN | 0
+194 | 2000 | 3002 | UP | DOWN | 0
+199 | 5003 | 0 | UP | DOWN | 0
+201 | 2000 | 0 | UP | DOWN | 0
+203 | 2000 | 0 | UP | DOWN | 0
+205 | 2000 | 3002 | UP | DOWN | 0
+SUMMARY after 60 loops: max period 17127 ms, loops over 2500 ms: 16
+210 | 5003 | 0 | UP | DOWN | 0
+212 | 2000 | 0 | UP | DOWN | 0
+214 | 2000 | 0 | UP | DOWN | 0
+216 | 2000 | 3002 | UP | DOWN | 0
+221 | 5003 | 0 | UP | DOWN | 0
+223 | 2000 | 0 | UP | DOWN | 0
+225 | 2000 | 0 | UP | DOWN | 0
+227 | 2000 | 3002 | UP | DOWN | 0
+232 | 5003 | 0 | UP | DOWN | 0
+234 | 2000 | 0 | UP | DOWN | 0
+236 | 2000 | 0 | UP | DOWN | 0
+238 | 2000 | 3002 | UP | DOWN | 0
+243 | 5003 | 0 | UP | DOWN | 0
+245 | 2000 | 0 | UP | DOWN | 0
+247 | 2000 | 0 | UP | DOWN | 0
+SUMMARY after 75 loops: max period 17127 ms, loops over 2500 ms: 20
+249 | 2000 | 3002 | UP | DOWN | 0
+254 | 5003 | 0 | UP | DOWN | 0
+256 | 2000 | 0 | UP | DOWN | 0
+258 | 2000 | 0 | UP | DOWN | 0
+260 | 2000 | 15033 | UP | DOWN | 0
+277 | 17033 | 3002 | UP | DOWN | 0
+282 | 5003 | 0 | UP | DOWN | 0
+284 | 2000 | 0 | UP | DOWN | 0
+286 | 2000 | 0 | UP | DOWN | 0
+288 | 2000 | 3002 | UP | DOWN | 0
+293 | 5003 | 0 | UP | DOWN | 0
+295 | 2000 | 0 | UP | DOWN | 0
+297 | 2000 | 0 | UP | DOWN | 0
+299 | 2000 | 3002 | UP | DOWN | 0
+304 | 5003 | 0 | UP | DOWN | 0
+SUMMARY after 90 loops: max period 17127 ms, loops over 2500 ms: 25
+306 | 2000 | 0 | UP | DOWN | 0
+308 | 2000 | 0 | UP | DOWN | 0
+310 | 2000 | 15033 | UP | DOWN | 0
+327 | 17033 | 3002 | UP | DOWN | 0
+332 | 5003 | 0 | UP | DOWN | 0
+334 | 2000 | 0 | UP | DOWN | 0
+336 | 2000 | 0 | UP | DOWN | 0
+338 | 2000 | 15037 | UP | DOWN | 0
+355 | 17037 | 3002 | UP | DOWN | 0
+360 | 5003 | 0 | UP | DOWN | 0
+362 | 2000 | 0 | UP | DOWN | 0
+364 | 2000 | 0 | UP | DOWN | 0
+366 | 2000 | 3002 | UP | DOWN | 0
+371 | 5003 | 0 | UP | DOWN | 0
+373 | 2000 | 0 | UP | DOWN | 0
+SUMMARY after 105 loops: max period 17127 ms, loops over 2500 ms: 30
+375 | 2000 | 0 | UP | DOWN | 0
+377 | 2000 | 3002 | UP | DOWN | 0
+382 | 5003 | 0 | UP | DOWN | 0
+384 | 2000 | 0 | UP | DOWN | 0
+386 | 2000 | 0 | UP | DOWN | 0
+388 | 2000 | 3002 | UP | DOWN | 0
+393 | 5003 | 0 | UP | DOWN | 0
+395 | 2000 | 0 | UP | DOWN | 0
+397 | 2000 | 0 | UP | DOWN | 0
+399 | 2000 | 3002 | UP | DOWN | 0
+404 | 5003 | 0 | UP | DOWN | 0
+406 | 2000 | 0 | UP | DOWN | 0
+408 | 2000 | 0 | UP | DOWN | 0
+410 | 2000 | 3002 | UP | DOWN | 0
+415 | 5003 | 0 | UP | DOWN | 0
+SUMMARY after 120 loops: max period 17127 ms, loops over 2500 ms: 34
+417 | 2000 | 0 | UP | DOWN | 0
+419 | 2000 | 0 | UP | DOWN | 0
+421 | 2000 | 3002 | UP | DOWN | 0
+426 | 5003 | 0 | UP | DOWN | 0
+428 | 2000 | 0 | UP | DOWN | 0
+430 | 2000 | 0 | UP | DOWN | 0
+432 | 2000 | 3002 | UP | DOWN | 0
+437 | 5003 | 0 | UP | DOWN | 0
+439 | 2000 | 0 | UP | DOWN | 0
+441 | 2000 | 0 | UP | DOWN | 0
+443 | 2000 | 3002 | UP | DOWN | 0
+448 | 5003 | 0 | UP | DOWN | 0
+450 | 2000 | 0 | UP | DOWN | 0
+452 | 2000 | 0 | UP | DOWN | 0
+454 | 2000 | 3002 | UP | DOWN | 0
+SUMMARY after 135 loops: max period 17127 ms, loops over 2500 ms: 37
+459 | 5003 | 0 | UP | DOWN | 0
+461 | 2000 | 0 | UP | DOWN | 0
+463 | 2000 | 0 | UP | DOWN | 0
+465 | 2000 | 3002 | UP | DOWN | 0
+470 | 5003 | 0 | UP | DOWN | 0
+472 | 2000 | 0 | UP | DOWN | 0
+474 | 2000 | 0 | UP | DOWN | 0
+476 | 2000 | 3002 | UP | DOWN | 0
+481 | 5003 | 0 | UP | DOWN | 0
+483 | 2000 | 0 | UP | DOWN | 0
+485 | 2000 | 0 | UP | DOWN | 0
+487 | 2000 | 15085 | UP | DOWN | 0
+504 | 17085 | 3002 | UP | DOWN | 0
+509 | 5003 | 0 | UP | DOWN | 0
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x8 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x10cc
+load:0x403c8700,len:0xc2c
+load:0x403cb700,len:0x30b0
+entry 0x403c88b8
+
+=== offline / latency test ===
+USE_NETWORK_TASK=1 SIMULATE_BLOCKING_ALERT_SOUND=0 MIMIC_ORIGINAL_SETSERVER=0
+...
+Wi-Fi at boot: connected
+columns: t_s | period_ms | net_ms | wifi | mqtt | published
+3 | 2000 | 0 | UP | DOWN | 0
+5 | 2000 | 0 | UP | DOWN | 0
+7 | 2000 | 0 | UP | DOWN | 0
+9 | 2000 | 0 | UP | DOWN | 0
+11 | 2000 | 0 | UP | DOWN | 0
+13 | 2000 | 0 | UP | DOWN | 0
+15 | 2000 | 3003 | UP | DOWN | 0
+17 | 2000 | 0 | UP | DOWN | 0
+19 | 2000 | 0 | UP | DOWN | 0
+21 | 2000 | 0 | UP | DOWN | 0
+23 | 2000 | 0 | UP | DOWN | 0
+25 | 2000 | 0 | UP | DOWN | 0
+27 | 2000 | 3003 | UP | DOWN | 0
+29 | 2000 | 0 | UP | DOWN | 0
+31 | 2000 | 0 | UP | DOWN | 0
+SUMMARY after 15 loops: max period 2000 ms, loops over 2500 ms: 0
+33 | 2000 | 0 | UP | DOWN | 0
+35 | 2000 | 0 | UP | DOWN | 0
+37 | 2000 | 3004 | UP | DOWN | 0
+39 | 2000 | 0 | UP | DOWN | 0
+41 | 2000 | 0 | UP | DOWN | 0
+43 | 2000 | 0 | UP | DOWN | 0
+45 | 2000 | 0 | UP | DOWN | 0
+47 | 2000 | 0 | UP | DOWN | 0
+49 | 2000 | 3003 | UP | DOWN | 0
+51 | 2000 | 0 | UP | DOWN | 0
+53 | 2000 | 0 | UP | DOWN | 0
+55 | 2000 | 0 | UP | DOWN | 0
+57 | 2000 | 0 | UP | DOWN | 0
+59 | 2000 | 3004 | UP | DOWN | 0
+61 | 2000 | 0 | UP | DOWN | 0
+SUMMARY after 30 loops: max period 2000 ms, loops over 2500 ms: 0
+63 | 2000 | 0 | UP | DOWN | 0
+65 | 2000 | 0 | UP | DOWN | 0
+67 | 2000 | 0 | UP | DOWN | 0
+69 | 2000 | 0 | UP | DOWN | 0
+71 | 2000 | 3003 | UP | DOWN | 0
+73 | 2000 | 0 | UP | DOWN | 0
+75 | 2000 | 0 | UP | DOWN | 0
+77 | 2000 | 0 | UP | DOWN | 0
+79 | 2000 | 0 | UP | DOWN | 0
+81 | 2000 | 3003 | UP | DOWN | 0
+83 | 2000 | 0 | UP | DOWN | 0
+85 | 2000 | 0 | UP | DOWN | 0
+87 | 2000 | 0 | UP | DOWN | 0
+89 | 2000 | 0 | UP | DOWN | 0
+91 | 2000 | 0 | UP | DOWN | 0
+SUMMARY after 45 loops: max period 2000 ms, loops over 2500 ms: 0
+93 | 2000 | 3003 | UP | DOWN | 0
+95 | 2000 | 0 | UP | DOWN | 0
+97 | 2000 | 0 | UP | DOWN | 0
+99 | 2000 | 0 | UP | DOWN | 0
+101 | 2000 | 0 | UP | DOWN | 0
+103 | 2000 | 3004 | UP | DOWN | 0
+105 | 2000 | 0 | UP | DOWN | 0
+107 | 2000 | 0 | UP | DOWN | 0
+109 | 2000 | 0 | UP | DOWN | 0
+111 | 2000 | 0 | UP | DOWN | 0
+113 | 2000 | 0 | UP | DOWN | 0
+115 | 2000 | 3003 | UP | DOWN | 0
+117 | 2000 | 0 | UP | DOWN | 0
+119 | 2000 | 0 | UP | DOWN | 0
+121 | 2000 | 0 | UP | DOWN | 0
+SUMMARY after 60 loops: max period 2000 ms, loops over 2500 ms: 0
+123 | 2000 | 0 | UP | DOWN | 0
+125 | 2000 | 3004 | UP | DOWN | 0
+127 | 2000 | 0 | UP | DOWN | 0
+129 | 2000 | 0 | UP | DOWN | 0
+131 | 2000 | 0 | UP | DOWN | 0
+133 | 2000 | 0 | UP | DOWN | 0
+135 | 2000 | 0 | UP | DOWN | 0
+137 | 2000 | 3003 | UP | DOWN | 0
+139 | 2000 | 0 | UP | DOWN | 0
+141 | 2000 | 0 | UP | DOWN | 0
+143 | 2000 | 0 | UP | DOWN | 0
+145 | 2000 | 0 | UP | DOWN | 0
+147 | 2000 | 3004 | UP | DOWN | 0
+149 | 2000 | 0 | UP | DOWN | 0
+151 | 2000 | 0 | UP | DOWN | 0
+SUMMARY after 75 loops: max period 2000 ms, loops over 2500 ms: 0
+153 | 2000 | 0 | UP | DOWN | 0
+155 | 2000 | 0 | UP | DOWN | 0
+157 | 2000 | 0 | UP | DOWN | 0
+159 | 2000 | 3004 | UP | DOWN | 0
+161 | 2000 | 0 | UP | DOWN | 0
+163 | 2000 | 0 | UP | DOWN | 0
+165 | 2000 | 0 | UP | DOWN | 0
+167 | 2000 | 0 | UP | DOWN | 0
+169 | 2000 | 3002 | UP | DOWN | 0
+171 | 2000 | 0 | UP | DOWN | 0
+173 | 2000 | 0 | UP | DOWN | 0
+175 | 2000 | 0 | UP | DOWN | 0
+177 | 2000 | 0 | UP | DOWN | 0
+179 | 2000 | 0 | UP | DOWN | 0
+181 | 2000 | 3003 | UP | DOWN | 0
+SUMMARY after 90 loops: max period 2000 ms, loops over 2500 ms: 0
+183 | 2000 | 0 | UP | DOWN | 0
+185 | 2000 | 0 | UP | DOWN | 0
+187 | 2000 | 0 | UP | DOWN | 0
+189 | 2000 | 0 | UP | DOWN | 0
+191 | 2000 | 3004 | UP | DOWN | 0
+193 | 2000 | 0 | UP | DOWN | 0
+195 | 2000 | 0 | UP | DOWN | 0
+197 | 2000 | 0 | UP | DOWN | 0
+199 | 2000 | 0 | UP | DOWN | 0
+201 | 2000 | 0 | UP | DOWN | 0
+203 | 2000 | 3002 | UP | DOWN | 0
+205 | 2000 | 0 | UP | DOWN | 0
+207 | 2000 | 0 | UP | DOWN | 0
+209 | 2000 | 0 | UP | DOWN | 0
+211 | 2000 | 0 | UP | DOWN | 0
+SUMMARY after 105 loops: max period 2000 ms, loops over 2500 ms: 0
+213 | 2000 | 3004 | UP | DOWN | 0
+215 | 2000 | 0 | UP | DOWN | 0
+217 | 2000 | 0 | UP | DOWN | 0
+219 | 2000 | 0 | UP | DOWN | 0
+221 | 2000 | 0 | UP | DOWN | 0
+223 | 2000 | 0 | UP | DOWN | 0
+225 | 2000 | 3003 | UP | DOWN | 0
+227 | 2000 | 0 | UP | DOWN | 0
+229 | 2000 | 0 | UP | DOWN | 0
+231 | 2000 | 0 | UP | DOWN | 0
+233 | 2000 | 0 | UP | DOWN | 0
+235 | 2000 | 3004 | UP | DOWN | 0
+237 | 2000 | 0 | UP | DOWN | 0
+239 | 2000 | 0 | UP | DOWN | 0
+241 | 2000 | 0 | UP | DOWN | 0
+SUMMARY after 120 loops: max period 2000 ms, loops over 2500 ms: 0
+243 | 2000 | 0 | UP | DOWN | 0
+245 | 2000 | 0 | UP | DOWN | 0
+247 | 2000 | 3004 | UP | DOWN | 0
+249 | 2000 | 0 | UP | DOWN | 0
+251 | 2000 | 0 | UP | DOWN | 0
+253 | 2000 | 0 | UP | DOWN | 0
+255 | 2000 | 0 | UP | DOWN | 0
+257 | 2000 | 3004 | UP | DOWN | 0
+259 | 2000 | 0 | UP | DOWN | 0
+261 | 2000 | 0 | UP | DOWN | 0
+263 | 2000 | 0 | UP | DOWN | 0
+265 | 2000 | 0 | UP | DOWN | 0
+267 | 2000 | 0 | UP | DOWN | 0
+269 | 2000 | 3004 | UP | DOWN | 0
+271 | 2000 | 0 | UP | DOWN | 0
+SUMMARY after 135 loops: max period 2000 ms, loops over 2500 ms: 0
+273 | 2000 | 0 | UP | DOWN | 0
+275 | 2000 | 0 | UP | DOWN | 0
+277 | 2000 | 0 | UP | DOWN | 0
+279 | 2000 | 3003 | UP | DOWN | 0
+281 | 2000 | 0 | UP | DOWN | 0
+283 | 2000 | 0 | UP | DOWN | 0
+285 | 2000 | 0 | UP | DOWN | 0
+287 | 2000 | 0 | UP | DOWN | 0
+289 | 2000 | 0 | UP | DOWN | 0
+291 | 2000 | 3004 | UP | DOWN | 0
+293 | 2000 | 0 | UP | DOWN | 0
+295 | 2000 | 0 | UP | DOWN | 0
+297 | 2000 | 0 | UP | DOWN | 0
+299 | 2000 | 0 | UP | DOWN | 0
+301 | 2000 | 3004 | UP | DOWN | 0
+SUMMARY after 150 loops: max period 2000 ms, loops over 2500 ms: 0
+303 | 2000 | 0 | UP | DOWN | 0
+305 | 2000 | 0 | UP | DOWN | 0
+307 | 2000 | 0 | UP | DOWN | 0
+309 | 2000 | 0 | UP | DOWN | 0
+311 | 2000 | 0 | UP | DOWN | 0
+313 | 2000 | 3004 | UP | DOWN | 0
+315 | 2000 | 0 | UP | DOWN | 0
+317 | 2000 | 0 | UP | DOWN | 0
+319 | 2000 | 0 | UP | DOWN | 0
+321 | 2000 | 0 | UP | DOWN | 0
+323 | 2000 | 3004 | UP | DOWN | 0
+325 | 2000 | 0 | UP | DOWN | 0
+327 | 2000 | 0 | UP | DOWN | 0
+329 | 2000 | 0 | UP | DOWN | 0
+331 | 2000 | 0 | UP | DOWN | 0
+SUMMARY after 165 loops: max period 2000 ms, loops over 2500 ms: 0
+333 | 2000 | 0 | UP | DOWN | 0
+335 | 2000 | 3004 | UP | DOWN | 0
+337 | 2000 | 0 | UP | DOWN | 0
+339 | 2000 | 0 | UP | DOWN | 0
+341 | 2000 | 0 | UP | DOWN | 0
+343 | 2000 | 0 | UP | DOWN | 0
+345 | 2000 | 3003 | UP | DOWN | 0
+347 | 2000 | 0 | UP | DOWN | 0
+349 | 2000 | 0 | UP | DOWN | 0
+351 | 2000 | 0 | UP | DOWN | 0
+353 | 2000 | 0 | UP | DOWN | 0
+355 | 2000 | 0 | UP | DOWN | 0
+357 | 2000 | 3003 | UP | DOWN | 0
+359 | 2000 | 0 | UP | DOWN | 0
+361 | 2000 | 0 | UP | DOWN | 0
+SUMMARY after 180 loops: max period 2000 ms, loops over 2500 ms: 0
+363 | 2000 | 0 | UP | DOWN | 0
+365 | 2000 | 0 | UP | DOWN | 0
+367 | 2000 | 3004 | UP | DOWN | 0
+369 | 2000 | 0 | UP | DOWN | 0
+371 | 2000 | 0 | UP | DOWN | 0
+373 | 2000 | 0 | UP | DOWN | 0
+375 | 2000 | 0 | UP | DOWN | 0
+377 | 2000 | 0 | UP | DOWN | 0
+379 | 2000 | 3004 | UP | DOWN | 0
+381 | 2000 | 0 | UP | DOWN | 0
+383 | 2000 | 0 | UP | DOWN | 0
+385 | 2000 | 0 | UP | DOWN | 0
+387 | 2000 | 0 | UP | DOWN | 0
+389 | 2000 | 3004 | UP | DOWN | 0
+391 | 2000 | 0 | UP | DOWN | 0
+SUMMARY after 195 loops: max period 2000 ms, loops over 2500 ms: 0
+393 | 2000 | 0 | UP | DOWN | 0
+395 | 2000 | 0 | UP | DOWN | 0
+397 | 2000 | 0 | UP | DOWN | 0
+399 | 2000 | 0 | UP | DOWN | 0
+401 | 2000 | 3004 | UP | DOWN | 0
+403 | 2000 | 0 | UP | DOWN | 0
+405 | 2000 | 0 | UP | DOWN | 0
+407 | 2000 | 0 | UP | DOWN | 0
+409 | 2000 | 0 | UP | DOWN | 0
+411 | 2000 | 3004 | UP | DOWN | 0
+413 | 2000 | 0 | UP | DOWN | 0
+415 | 2000 | 0 | UP | DOWN | 0
+417 | 2000 | 0 | UP | DOWN | 0
+419 | 2000 | 0 | UP | DOWN | 0
+421 | 2000 | 0 | UP | DOWN | 0
+SUMMARY after 210 loops: max period 2000 ms, loops over 2500 ms: 0
+423 | 2000 | 3004 | UP | DOWN | 0
+425 | 2000 | 0 | UP | DOWN | 0
+427 | 2000 | 0 | UP | DOWN | 0
+429 | 2000 | 0 | UP | DOWN | 0
+431 | 2000 | 0 | UP | DOWN | 0
+433 | 2000 | 3004 | UP | DOWN | 0
+435 | 2000 | 0 | UP | DOWN | 0
+437 | 2000 | 0 | UP | DOWN | 0
+439 | 2000 | 0 | UP | DOWN | 0
+441 | 2000 | 0 | UP | DOWN | 0
+443 | 2000 | 0 | UP | DOWN | 0
+445 | 2000 | 3004 | UP | DOWN | 0
+447 | 2000 | 0 | UP | DOWN | 0
+449 | 2000 | 0 | UP | DOWN | 0
+451 | 2000 | 0 | UP | DOWN | 0
+SUMMARY after 225 loops: max period 2000 ms, loops over 2500 ms: 0
+453 | 2000 | 0 | UP | DOWN | 0
+455 | 2000 | 3003 | UP | DOWN | 0
+457 | 2000 | 0 | UP | DOWN | 0
+459 | 2000 | 0 | UP | DOWN | 0
+461 | 2000 | 0 | UP | DOWN | 0
+463 | 2000 | 0 | UP | DOWN | 0
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x8 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x10cc
+load:0x403c8700,len:0xc2c
+load:0x403cb700,len:0x30b0
+entry 0x403c88b8
+
+=== offline / latency test ===
+USE_NETWORK_TASK=1 SIMULATE_BLOCKING_ALERT_SOUND=0 MIMIC_ORIGINAL_SETSERVER=0
+....
+Wi-Fi at boot: connected
+columns: t_s | period_ms | net_ms | wifi | mqtt | published
+3 | 2000 | 0 | UP | DOWN | 0
+5 | 2000 | 0 | UP | DOWN | 0
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0xb (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x10cc
+load:0x403c8700,len:0xc2c
+load:0x403cb700,len:0x30b0
+entry 0x403c88b8
+
+=== offline / latency test ===
+USE_NETWORK_TASK=1 SIMULATE_BLOCKING_ALERT_SOUND=0 MIMIC_ORIGINAL_SETSERVER=0
+....................
+Wi-Fi at boot: NOT connected
+columns: t_s | period_ms | net_ms | wifi | mqtt | published
+11 | 2000 | 0 | DOWN | DOWN | 0
+13 | 2000 | 0 | UP | DOWN | 0
+15 | 2000 | 1084 | UP | UP | 1
+17 | 2000 | 2 | UP | UP | 2
+19 | 2000 | 2 | UP | UP | 3
+21 | 2000 | 2 | UP | UP | 4
+23 | 2000 | 2 | UP | UP | 5
+25 | 2000 | 2 | UP | UP | 6
+27 | 2000 | 2 | UP | UP | 7
+29 | 2000 | 2 | UP | UP | 8
+31 | 2000 | 3 | UP | UP | 9
+33 | 2000 | 2 | UP | UP | 10
+35 | 2000 | 2 | UP | UP | 11
+37 | 2000 | 2 | UP | UP | 12
+39 | 2000 | 2 | UP | UP | 13
+SUMMARY after 15 loops: max period 2000 ms, loops over 2500 ms: 0
+41 | 2000 | 2 | UP | UP | 14
+43 | 2000 | 2 | UP | UP | 15
+45 | 2000 | 2 | UP | UP | 16
+47 | 2000 | 2 | UP | UP | 17
+49 | 2000 | 3 | UP | UP | 18
+51 | 2000 | 2 | UP | UP | 19
+53 | 2000 | 2 | UP | UP | 20
+55 | 2000 | 3 | UP | UP | 21
+57 | 2000 | 2 | UP | UP | 22
+59 | 2000 | 2 | UP | UP | 23
+61 | 2000 | 2 | UP | UP | 24
+63 | 2000 | 2 | UP | UP | 25
+65 | 2000 | 2 | UP | UP | 26
+67 | 2000 | 3 | UP | UP | 27
+69 | 2000 | 2 | UP | UP | 28
+SUMMARY after 30 loops: max period 2000 ms, loops over 2500 ms: 0
+71 | 2000 | 2 | UP | UP | 29
+73 | 2000 | 2 | UP | UP | 30
+75 | 2000 | 2 | UP | UP | 31
+77 | 2000 | 2 | UP | UP | 32
+79 | 2000 | 2 | UP | UP | 33
+81 | 2000 | 2 | UP | UP | 34
+83 | 2000 | 2 | UP | UP | 35
+85 | 2000 | 3 | UP | UP | 36
+87 | 2000 | 2 | UP | UP | 37
+89 | 2000 | 2 | UP | UP | 38
+91 | 2000 | 2 | UP | UP | 39
+93 | 2000 | 2 | UP | UP | 40
+95 | 2000 | 2 | UP | UP | 41
+97 | 2000 | 2 | UP | UP | 42
+99 | 2000 | 2 | UP | UP | 43
+SUMMARY after 45 loops: max period 2000 ms, loops over 2500 ms: 0
+101 | 2000 | 2 | UP | UP | 44
+103 | 2000 | 3 | UP | UP | 45
+105 | 2000 | 2 | UP | UP | 46
+107 | 2000 | 2 | UP | UP | 47
+109 | 2000 | 2 | UP | UP | 48
+111 | 2000 | 2 | UP | UP | 49
+113 | 2000 | 2 | UP | UP | 50
+115 | 2000 | 2 | UP | UP | 51
+117 | 2000 | 2 | UP | UP | 52
+119 | 2000 | 2 | UP | UP | 53
+121 | 2000 | 3 | UP | UP | 54
+123 | 2000 | 2 | UP | UP | 55
+125 | 2000 | 2 | UP | UP | 56
+127 | 2000 | 2 | UP | UP | 57
+129 | 2000 | 2 | UP | UP | 58
+SUMMARY after 60 loops: max period 2000 ms, loops over 2500 ms: 0
+131 | 2000 | 2 | UP | UP | 59
+133 | 2000 | 2 | UP | UP | 60
+135 | 2000 | 2 | UP | UP | 61
+137 | 2000 | 2 | UP | UP | 62
+139 | 2000 | 3 | UP | UP | 63
+141 | 2000 | 2 | UP | UP | 64
+143 | 2000 | 3 | UP | UP | 65
+145 | 2000 | 2 | UP | UP | 66
+147 | 2000 | 2 | UP | UP | 67
+149 | 2000 | 2 | UP | UP | 68
+151 | 2000 | 2 | UP | UP | 69
+153 | 2000 | 2 | UP | UP | 70
+155 | 2000 | 2 | UP | UP | 71
+157 | 2000 | 3 | UP | UP | 72
+159 | 2000 | 2 | UP | UP | 73
+SUMMARY after 75 loops: max period 2000 ms, loops over 2500 ms: 0
+161 | 2000 | 2 | UP | UP | 74
+163 | 2000 | 2 | UP | UP | 75
+165 | 2000 | 2 | UP | UP | 76
+167 | 2000 | 2 | UP | UP | 77
+169 | 2000 | 2 | UP | UP | 78
+171 | 2000 | 2 | UP | UP | 79
+173 | 2000 | 2 | UP | UP | 80
+175 | 2000 | 3 | UP | UP | 81
+177 | 2000 | 2 | UP | UP | 82
+179 | 2000 | 2 | UP | UP | 83
+181 | 2000 | 2 | UP | UP | 84
+183 | 2000 | 2 | UP | UP | 85
+185 | 2000 | 2 | UP | UP | 86
+187 | 2000 | 2 | UP | UP | 87
+189 | 2000 | 2 | UP | UP | 88
+SUMMARY after 90 loops: max period 2000 ms, loops over 2500 ms: 0
+191 | 2000 | 2 | UP | UP | 89
+193 | 2000 | 3 | UP | UP | 90
+195 | 2000 | 2 | UP | UP | 91
+197 | 2000 | 2 | UP | UP | 92
+199 | 2000 | 2 | UP | UP | 93
+201 | 2000 | 2 | UP | UP | 94
+203 | 2000 | 2 | UP | UP | 95
+205 | 2000 | 2 | UP | UP | 96
+207 | 2000 | 2 | UP | UP | 97
+209 | 2000 | 2 | UP | UP | 98
+211 | 2000 | 3 | UP | UP | 99
