@@ -1,0 +1,8 @@
+# Large third-party datasets: download them as described in DATA.md
+ML-Validation/refit/data/
+ML-Validation/ult/data/
+ML-Validation/metropt3/*.csv
+ML-Validation/metropt3/*.zip
+ML-Validation/metropt3/metropt3_out/
+__pycache__/
+*.pyc
